@@ -4,25 +4,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
-        android:scrollbars="none">
+        android:scrollbars="none"
+        >
 
-        <fragment
-            android:id="@+id/request_coins_fragment"
-            android:name="de.schildbach.wallet.ui.RequestCoinsFragment"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:layout="@layout/request_coins_fragment" />
+            <fragment
+                android:id="@+id/request_coins_fragment"
+                android:name="de.schildbach.wallet.ui.RequestCoinsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/request_coins_fragment"
+                />
 
     </ScrollView>
 </LinearLayout>

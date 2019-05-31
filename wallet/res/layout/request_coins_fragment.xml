@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="25dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+	>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-		android:layout_marginBottom="@dimen/space_medium">
+		android:layout_marginBottom="@dimen/space_medium"
+		>
 
 		<include
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"
-			layout="@layout/request_coins_form_include" />
+			layout="@layout/request_coins_form_include"
+			/>
 
 	</FrameLayout>
 
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		android:orientation="vertical">
+		android:orientation="vertical"
+		>
 
 		<ImageView
 			android:id="@+id/request_coins_qr"
@@ -32,7 +37,8 @@
 			android:layout_gravity="center"
 			android:contentDescription="@string/action_show_qr"
 			android:layout_marginBottom="@dimen/space_medium"
-			android:scaleType="fitXY" />
+			android:scaleType="fitXY"
+			/>
 
 		<TextView
 			android:id="@+id/request_coins_fragment_initiate_request"
@@ -42,7 +48,8 @@
 			android:layout_marginRight="44dp"
 			android:gravity="center"
 			tools:text="@string/request_coins_fragment_initiate_request_qr"
-			style="@style/MontserratMedium.DB.14"/>
+			style="@style/MontserratMedium.DB.14"
+			/>
 
 	</LinearLayout>
 

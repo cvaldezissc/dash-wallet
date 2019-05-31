@@ -3,7 +3,8 @@
 
     <size
         android:height="1dp"
-        android:width="@dimen/divider_currency_padding" />
+        android:width="@dimen/divider_currency_padding"
+        />
 
     <solid android:color="#0000" />
 

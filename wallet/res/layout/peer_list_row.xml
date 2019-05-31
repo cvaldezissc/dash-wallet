@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -8,7 +9,8 @@
     android:paddingBottom="18dp"
     android:paddingLeft="@dimen/space_medium"
     android:paddingRight="@dimen/space_medium"
-    android:paddingTop="14dp">
+    android:paddingTop="14dp"
+    >
 
     <TextView
         android:id="@+id/peer_list_row_version"
@@ -18,7 +20,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="/Dash Core:0.12.3.2/\nprotocol: 70210"
-        style="@style/MontserratMedium.MG.12"/>
+        style="@style/MontserratMedium.MG.12"
+        />
 
     <TextView
         android:id="@+id/peer_list_row_ip"
@@ -32,7 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         tools:text="45.12.345.678:9999"
-        style="@style/MontserratSemiBold.DB.14"/>
+        style="@style/MontserratSemiBold.DB.14"
+        />
 
     <TextView
         android:id="@+id/peer_list_row_height"
@@ -42,7 +46,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         tools:text="935826 blocks"
-        style="@style/MontserratSemiBold.DB.12"/>
+        style="@style/MontserratSemiBold.DB.12"
+        />
 
     <TextView
         android:id="@+id/peer_list_row_ping"
@@ -52,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="123 ms"
-        style="@style/MontserratMedium.MG.12"/>
+        style="@style/MontserratMedium.MG.12"
+        />
 
 </RelativeLayout>

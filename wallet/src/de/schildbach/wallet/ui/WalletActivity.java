@@ -261,6 +261,8 @@ public final class WalletActivity extends AbstractBindServiceActivity
                 this, viewDrawer, toolbarView, R.string.navigation_drawer_open,
                 R.string.navigation_drawer_close) {
 
+
+
             @Override
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
@@ -269,7 +271,10 @@ public final class WalletActivity extends AbstractBindServiceActivity
                 menu.findItem(R.id.nav_exchenge_rates).setEnabled(res.getBoolean(R.bool.show_exchange_rates_option));
             }
         };
+
         viewDrawer.addDrawerListener(toggle);
+
+        toggle.getDrawerArrowDrawable().setColor(R.color.fg_value_black);
         toggle.syncState();
 
         viewFakeForSafetySubmenu = new View(this);

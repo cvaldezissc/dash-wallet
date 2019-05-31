@@ -43,7 +43,7 @@ public class ToolbarCurrencyTextView extends CurrencyTextView
     {
         super.onFinishInflate();
 
-        setPrefixColor(ContextCompat.getColor(getContext(), R.color.white));
+        setPrefixColor(ContextCompat.getColor(getContext(), R.color.fg_value_black));
     }
 
 	/*@Override

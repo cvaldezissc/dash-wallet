@@ -12,8 +12,15 @@ dependencies {
 }
 
 android {
+    signingConfigs {
+        dashwallet_testsample {
+            storeFile file('/Users/carlos/Documents/github_public_repos/pacwallet_v2/android_utils/certificates/pacwallet.jks')
+            storePassword 'Pac2Th3M00n!$'
+            keyPassword 'Pac2Th3M00n!$keypass'
+            keyAlias = 'key0'
+        }
+    }
     compileSdkVersion 'android-15'
-    buildToolsVersion '28.0.2'
 
     lintOptions { abortOnError false }
 

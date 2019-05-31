@@ -3,18 +3,23 @@
 
     <item
         android:drawable="@drawable/stat_sys_peers_0"
-        android:maxLevel="0"/>
+        android:maxLevel="0"
+        />
     <item
         android:drawable="@drawable/stat_sys_peers_1"
-        android:maxLevel="1"/>
+        android:maxLevel="1"
+        />
     <item
         android:drawable="@drawable/stat_sys_peers_2"
-        android:maxLevel="2"/>
+        android:maxLevel="2"
+        />
     <item
         android:drawable="@drawable/stat_sys_peers_3"
-        android:maxLevel="3"/>
+        android:maxLevel="3"
+        />
     <item
         android:drawable="@drawable/stat_sys_peers_4"
-        android:maxLevel="4"/>
+        android:maxLevel="4"
+        />
 
 </level-list>

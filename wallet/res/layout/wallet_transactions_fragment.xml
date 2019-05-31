@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/wallet_transactions_group"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
     <ProgressBar
         android:id="@+id/loading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        />
 
     <LinearLayout
         android:id="@+id/empty_locked_group"
@@ -20,7 +23,8 @@
         android:gravity="center"
         android:clipToPadding="false"
         android:layout_gravity="center"
-        android:layout_margin="56dp">
+        android:layout_margin="56dp"
+        >
 
         <TextView
             android:id="@+id/wallet_transactions_empty"
@@ -29,7 +33,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             tools:text="wallet_lock_unlock_to_see_txs_title"
-            android:textSize="@dimen/font_size_small" />
+            android:textSize="@dimen/font_size_small"
+            />
 
         <LinearLayout
             android:id="@+id/fingerprint_group"
@@ -38,7 +43,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:visibility="gone"
-            tools:visibility="visible">
+            tools:visibility="visible"
+            >
 
             <ImageView
                 android:id="@+id/fingerprint_icon"
@@ -46,7 +52,8 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="@dimen/list_entry_padding"
                 android:layout_width="36dp"
-                android:layout_height="36dp" />
+                android:layout_height="36dp"
+                />
 
             <TextView
                 android:id="@+id/fingerprint_text"
@@ -54,7 +61,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/or_unlock_with_fingerprint"
                 android:gravity="center"
-                style="@style/MontserratMedium.DB.14"/>
+                style="@style/MontserratMedium.DB.14"
+                />
 
         </LinearLayout>
 
@@ -66,7 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <include layout="@layout/backup_disclaimer_layout"/>
+        <include layout="@layout/backup_disclaimer_layout" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/wallet_transactions_list"
@@ -75,7 +83,8 @@
             android:scrollbars="vertical"
             android:animateLayoutChanges="false"
             android:paddingBottom="80dp"
-            android:clipToPadding="false" />
+            android:clipToPadding="false"
+            />
 
     </LinearLayout>
 

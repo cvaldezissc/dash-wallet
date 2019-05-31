@@ -80,8 +80,15 @@ ext {
 }
 
 android {
+    signingConfigs {
+        dashwallet {
+            storeFile file('/Users/carlos/Documents/github_public_repos/pacwallet_v2/android_utils/certificates/pacwallet.jks')
+            storePassword 'Pac2Th3M00n!$'
+            keyAlias = 'key0'
+            keyPassword 'Pac2Th3M00n!$keypass'
+        }
+    }
     compileSdkVersion 28
-    buildToolsVersion '28.0.2'
 
     lintOptions {
         abortOnError false
@@ -101,6 +108,7 @@ android {
                 cppFlags ""
             }
         }
+        applicationId = 'com.dashpay.wallet1'
     }
 
     buildTypes {

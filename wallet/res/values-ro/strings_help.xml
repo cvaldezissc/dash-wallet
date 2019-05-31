@@ -4,11 +4,11 @@
     <string name="help_wallet">
 <![CDATA[
 		<p>
-			În partea dreaptă sus a ecranului se afișează soldul în Dash și o monedă națională selectată.
+			În partea dreaptă sus a ecranului se afișează soldul în $PAC și o monedă națională selectată.
 			Atinge pentru a accesa lista monedelor naționale și apasă pe una dintre valute pentru a o selecta.
 		</p>
 		<p>
-			Codul QR care conține adresa ta Dash este accesat din meniul de navigare (din stânga sus) și poate fi utilizat pentru scanare de către o altă persoană.
+			Codul QR care conține adresa ta $PAC este accesat din meniul de navigare (din stânga sus) și poate fi utilizat pentru scanare de către o altă persoană.
 			Apasă pe codul QR pentru a obține o versiune mai mare a acestuia.
 		</p>
 		<p>
@@ -26,10 +26,10 @@
     <string name="help_request_coins">
 <![CDATA[
 		<p>
-			Folosind acest dialog, poți cere monede de la o altă persoană (care ar trebui să aibă deja instalat portofelul Dash).
+			Folosind acest dialog, poți cere monede de la o altă persoană (care ar trebui să aibă deja instalat portofelul $PAC).
 		</p>
 		<p>
-			Mai întâi, poți introduce o sumă de Dash pentru a o solicita.
+			Mai întâi, poți introduce o sumă de $PAC pentru a o solicita.
 		</p>
 		<p>
 			Apoi, ori trebuie să ai codul QR generat scanat de către plătitor.
@@ -46,24 +46,24 @@
 <![CDATA[
 		<p>
 			Ai inițiat procesul de trimitere a monedelor.
-			Ai venit aici fie prin ecranul principal, fie apăsând pe o adresă URL Dash din browserul mobil.
+			Ai venit aici fie prin ecranul principal, fie apăsând pe o adresă URL $PAC din browserul mobil.
 		</p>
 		<p>
-			Mai întâi, introdu adresa Dash pentru a plăti.
+			Mai întâi, introdu adresa $PAC pentru a plăti.
 			Adresa se va completa automat din intrările cunoscute din agendă.
-			De asemenea, poți scana codurile QR cu adresele Dash sau cu cererile de Dash prin apăsarea butonului QR.
+			De asemenea, poți scana codurile QR cu adresele $PAC sau cu cererile de $PAC prin apăsarea butonului QR.
 		</p>
 		<p>
-			Apoi, poți vedea cât Dash poți cheltui în acel moment.
+			Apoi, poți vedea cât $PAC poți cheltui în acel moment.
 			Orice diferență față de soldul de pe ecranul principal este încă neconfirmată și, prin urmare, nu poate fi cheltuită încă.
 		</p>
 		<p>
-			Apasă InstantSend dacă intenționezi să efectuezi o plată instantanee. Taxa este mai mare (> 0.001 DASH).
+			Apasă InstantSend dacă intenționezi să efectuezi o plată instantanee. Taxa este mai mare (> 0.001 $PAC).
 			La sfârșit, introdu suma care trebuie plătită, iar codul PIN de cheltuieli trebuie introdus dacă a fost configurat în prealabil.
 		</p>
 		<p>
 			Poți introduce o plată în timp ce ești offline.
-			Acesta va fi trimisă la restartul următor al portofelului Dash.
+			Acesta va fi trimisă la restartul următor al portofelului $PAC.
 			Dacă dorești ca o plată să fie procesată cât mai repede posibil, asigură-te că ești bine conectat la internet (adică pe o rețea WLAN).
 		</p>
 		<p>
@@ -79,8 +79,8 @@
 			<b>Observații importante pentru siguranță :</b>
 		</p>
 		<p>
-			Dash-ul este stocat pe dispozitiv.
-			<b>Dacă pierzi dispozitivul, vei pierde Dash-ul.</b>
+			$PAC-ul este stocat pe dispozitiv.
+			<b>Dacă pierzi dispozitivul, vei pierde $PAC-ul.</b>
 		</p>
 		<p>
 			Asta înseamnă că trebuie <b>efectuezi un backup pentru portofel</b>!
@@ -89,12 +89,12 @@
 			Acesta este un portofel HD. Este necesară doar o copie de backup.
 		</p>
 		<p>
-			<b>Înainte de dezinstalare</b> (sau ștergerea datelor din aplicație / ștergerea dispozitivului), <b>transferă Dash-ul în alt portofel</b>.
-			Dash-ul rămas va fi pierdut.
+			<b>Înainte de dezinstalare</b> (sau ștergerea datelor din aplicație / ștergerea dispozitivului), <b>transferă $PAC-ul în alt portofel</b>.
+			$PAC-ul rămas va fi pierdut.
 		</p>
 		<p>
 			<b>Plățile sunt ireversibile</b>.
-			Dacă trimiți Dash-ul tău în void, nu există aproape nici o modalitate de a-l recupera.
+			Dacă trimiți $PAC-ul tău în void, nu există aproape nici o modalitate de a-l recupera.
 		</p>
 		<p>
 			<b>Păstrează dispozitivul mobil în siguranță!</b>

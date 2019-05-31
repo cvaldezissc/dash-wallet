@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/bitcoin_address_qr_card"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@android:color/white"
-    android:foreground="?android:attr/selectableItemBackground">
+    android:foreground="?android:attr/selectableItemBackground"
+    >
 
     <ImageView
         android:id="@+id/bitcoin_address_qr"
@@ -14,6 +16,7 @@
         android:contentDescription="@string/action_show_qr"
         android:focusable="true"
         android:padding="4dp"
-        android:scaleType="fitXY" />
+        android:scaleType="fitXY"
+        />
 
 </LinearLayout>
