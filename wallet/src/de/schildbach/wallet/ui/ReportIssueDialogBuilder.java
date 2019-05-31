@@ -26,20 +26,15 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.ArrayList;
-
 import javax.annotation.Nullable;
-
 import org.dash.wallet.common.ui.DialogBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import com.google.common.base.Charsets;
-
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet.util.Io;
 import de.schildbach.wallet_test.R;
-
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
@@ -78,16 +73,15 @@ public abstract class ReportIssueDialogBuilder extends DialogBuilder implements 
         ((TextView) view.findViewById(R.id.report_issue_dialog_message)).setText(messageResId);
 
         viewDescription = (EditText) view.findViewById(R.id.report_issue_dialog_description);
-
         viewCollectDeviceInfo = (CheckBox) view.findViewById(R.id.report_issue_dialog_collect_device_info);
-        viewCollectInstalledPackages = (CheckBox) view
-                .findViewById(R.id.report_issue_dialog_collect_installed_packages);
+        viewCollectInstalledPackages = (CheckBox) view.findViewById(R.id.report_issue_dialog_collect_installed_packages);
         viewCollectApplicationLog = (CheckBox) view.findViewById(R.id.report_issue_dialog_collect_application_log);
         viewCollectWalletDump = (CheckBox) view.findViewById(R.id.report_issue_dialog_collect_wallet_dump);
 
         setTitle(titleResId);
         setView(view);
         setPositiveButton(R.string.report_issue_dialog_report, this);
+
         setNegativeButton(R.string.button_cancel, null);
     }
 

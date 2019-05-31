@@ -191,10 +191,10 @@ public final class Constants {
     public static final String DEFAULT_EXCHANGE_CURRENCY = "USD";
 
     /** Recipient e-mail address for reports. */
-    public static final String REPORT_EMAIL = "support@dash.org";
+    public static final String REPORT_EMAIL = "cryptocashman@paccoin.net";
 
     /** Subject line for manually reported issues. */
-    public static final String REPORT_SUBJECT_BEGIN = "Android Dash Wallet:  ";
+    public static final String REPORT_SUBJECT_BEGIN = "Android $PAC Wallet:  ";
     public static final String REPORT_SUBJECT_ISSUE = "Reported issue";
 
     /** Subject line for crash reports. */
@@ -273,7 +273,7 @@ public final class Constants {
 
     private static final Logger log = LoggerFactory.getLogger(Constants.class);
 
-    //Dash Specific
+    //$PAC Specific
     public static long EARLIEST_HD_SEED_CREATION_TIME = 1427610960l;
 
     public static String WALLET_URI_SCHEME = "dashwallet";
