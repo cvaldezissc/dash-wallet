@@ -14,6 +14,7 @@
         android:background="@color/colorPrimary"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/My.PopupOverlay"
+        android:theme="@style/threeDotsTheme"
         />
 
     <LinearLayout
@@ -31,9 +32,8 @@
             android:minHeight="?attr/actionBarSize"
             app:tabMode="fixed"
             app:tabGravity="fill"
-            app:tabIndicatorColor="@android:color/black"
             app:tabTextColor="@color/fg_value_black"
-
+            app:tabSelectedTextColor="@color/fg_value_black"
             />
 
         <android.support.v4.view.ViewPager
@@ -42,6 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
             android:background="@color/bg_bright"
+            android:theme="@style/viewPagerTitleStrip"
             />
 
     </LinearLayout>

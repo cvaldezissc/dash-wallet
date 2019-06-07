@@ -37,6 +37,9 @@ import android.preference.EditTextPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceFragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 /**
  * @author Andreas Schildbach
@@ -57,6 +60,7 @@ public final class SettingsFragment extends PreferenceFragment implements OnPref
 
     private static final Logger log = LoggerFactory.getLogger(SettingsFragment.class);
 
+
     @Override
     public void onAttach(final Activity activity) {
         super.onAttach(activity);
@@ -72,6 +76,7 @@ public final class SettingsFragment extends PreferenceFragment implements OnPref
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.preference_settings);
+
 
         backgroundThread = new HandlerThread("backgroundThread", Process.THREAD_PRIORITY_BACKGROUND);
         backgroundThread.start();

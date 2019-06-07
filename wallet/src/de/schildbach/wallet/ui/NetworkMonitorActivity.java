@@ -63,6 +63,7 @@ public final class NetworkMonitorActivity extends AbstractBindServiceActivity {
             for (int i = 0; i < tabs.getTabCount(); i++) {
                 TextView tv = (TextView) LayoutInflater.from(this).inflate(R.layout.tab_title, null);
                 tabs.getTabAt(i).setCustomView(tv);
+                tv.setTextColor(R.color.fg_value_black);
             }
 
             peerListFragment = new PeerListFragment();

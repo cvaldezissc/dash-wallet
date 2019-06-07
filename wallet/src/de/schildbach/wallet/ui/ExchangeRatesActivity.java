@@ -30,6 +30,7 @@ public final class ExchangeRatesActivity extends AbstractBindServiceActivity {
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
         setContentView(R.layout.exchange_rates_content);
     }
 

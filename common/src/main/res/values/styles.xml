@@ -5,10 +5,10 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-
         <item name="actionMenuTextColor">@color/fg_value_black</item>
         <item name="android:textViewStyle">@style/MontserratTextViewStyle</item>
         <item name="android:editTextStyle">@style/My.Widget.EditText</item>
+        <item name="android:textColorSecondary">@color/fg_value_black</item>
         <item name="android:autoCompleteTextViewStyle">@style/My.Widget.AutoCompleteTextView</item>
         <item name="android:checkboxStyle">@style/CheckboxStyle</item>
         <item name="android:spinnerStyle">@style/My.Widget.Spinner</item>
@@ -21,6 +21,15 @@
 
     <style name="MontserratTextViewStyle" parent="android:Widget.TextView">
         <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="threeDotsTheme" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/fg_value_black</item>
+    </style>
+
+    <style name="CustomMainActivityThemeWithDots" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionOverflowButtonStyle">@style/threeDotsTheme</item>
+        <item name="android:textSize">13dp</item>
     </style>
 
     <style name="CheckboxStyle" parent="@android:style/Widget.Holo.Light.CompoundButton.CheckBox">
@@ -73,6 +82,8 @@
         <item name="android:displayOptions">showTitle</item>
     </style>
 
+
+
     <style name="My.Widget.ActionBar.ChildActivity" parent="@style/My.Widget.ActionBar">
         <item name="android:displayOptions">homeAsUp|showTitle</item>
     </style>
@@ -87,8 +98,16 @@
     </style>
 
     <style name="My.Theme.ChildActivity" parent="@style/My.Theme.NoActionBar">
-
+        <item name="android:textColor">@color/fg_value_black</item>
     </style>
+
+    <style name="viewPagerTitleStrip">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
 
     <style name="My.TextAppearance.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textColor">@color/fg_value_black</item>

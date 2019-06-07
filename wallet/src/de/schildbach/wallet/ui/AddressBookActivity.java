@@ -33,6 +33,8 @@ import de.schildbach.wallet_test.R;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
@@ -96,8 +98,8 @@ public final class AddressBookActivity extends AbstractBindServiceActivity {
 			PagerAdapter adapter = new TwoFragmentAdapter(fragmentManager, walletAddressesFragment,
 					sendingAddressesFragment, leftTitle, rightTitle);
 			pager.setAdapter(adapter);
-
 			TabLayout tabs = findViewById(R.id.address_book_pager_tabs);
+			tabs.setSelectedTabIndicatorColor(R.color.fg_value_black);
 			final int position = 1;
 			pager.setCurrentItem(position);
 			pager.setPageMargin(2);
@@ -107,6 +109,7 @@ public final class AddressBookActivity extends AbstractBindServiceActivity {
 			for (int i = 0; i < tabs.getTabCount(); i++) {
 				TextView tv = (TextView) LayoutInflater.from(this).inflate(R.layout.tab_title, null);
 				tabs.getTabAt(i).setCustomView(tv);
+				tv.setTextColor(R.color.fg_value_black);
 			}
         } else {
 			fragmentManager.beginTransaction().add(R.id.wallet_addresses_fragment, walletAddressesFragment, TAG_LEFT)
@@ -127,7 +130,7 @@ public final class AddressBookActivity extends AbstractBindServiceActivity {
 		return super.onOptionsItemSelected(item);
 	}
 
-    /* private */void updateFragments() {
+    void updateFragments() {
 		final Wallet wallet = getWalletApplication().getWallet();
 		final List<ECKey> derivedKeys = wallet.getIssuedReceiveKeys();
 		Collections.sort(derivedKeys, DeterministicKey.CHILDNUM_ORDER);
