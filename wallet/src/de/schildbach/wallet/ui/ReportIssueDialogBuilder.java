@@ -41,8 +41,10 @@ import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v4.content.FileProvider;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -80,7 +82,10 @@ public abstract class ReportIssueDialogBuilder extends DialogBuilder implements 
 
         setTitle(titleResId);
         setView(view);
+
+
         setPositiveButton(R.string.report_issue_dialog_report, this);
+
 
         setNegativeButton(R.string.button_cancel, null);
     }

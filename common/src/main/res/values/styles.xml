@@ -19,8 +19,15 @@
         <item name="alertDialogTheme">@style/NewDialogTheme</item>
     </style>
 
+    <style name="yourDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="android:colorAccent">@color/fg_value_black</item>
+        <item name="android:colorPrimary">@color/fg_value_black</item>
+
+    </style>
+
     <style name="MontserratTextViewStyle" parent="android:Widget.TextView">
-        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/gotham</item>
     </style>
 
     <style name="threeDotsTheme" parent="@style/Widget.AppCompat.ActionButton.Overflow">

@@ -7,4 +7,5 @@
     android:paddingLeft="24dp"
     android:paddingRight="24dp"
     android:paddingTop="8dp"
-    style="@style/MontserratMedium.DB.12"/>
+    style="@style/MontserratMedium.DB.12"
+    />

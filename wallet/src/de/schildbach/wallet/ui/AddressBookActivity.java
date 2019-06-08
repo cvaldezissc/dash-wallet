@@ -20,17 +20,13 @@ package de.schildbach.wallet.ui;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.crypto.DeterministicKey;
 import org.bitcoinj.wallet.Wallet;
-
 import com.google.common.collect.Iterables;
-
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet_test.R;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.ColorStateList;
