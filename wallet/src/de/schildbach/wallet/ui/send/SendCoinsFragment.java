@@ -170,11 +170,9 @@ public final class SendCoinsFragment extends Fragment {
     private FragmentManager fragmentManager;
     @Nullable
     private BluetoothAdapter bluetoothAdapter;
-
     private final Handler handler = new Handler();
     private HandlerThread backgroundThread;
     private Handler backgroundHandler;
-
     private View payeeGroup;
     private TextView payeeNameView;
     private TextView payeeVerifiedByView;
@@ -188,7 +186,6 @@ public final class SendCoinsFragment extends Fragment {
     private CheckBox directPaymentEnableView;
     private CheckBox instantXenable;
     private TextView instantSendInfo;
-
     private TextView hintView;
     private TextView directPaymentMessageView;
     private FrameLayout sentTransactionView;

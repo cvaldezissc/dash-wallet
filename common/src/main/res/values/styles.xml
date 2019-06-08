@@ -28,8 +28,8 @@
     </style>
 
     <style name="CustomMainActivityThemeWithDots" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="actionOverflowButtonStyle">@style/threeDotsTheme</item>
-        <item name="android:textSize">13dp</item>
+        <!--<item name="actionOverflowButtonStyle">@style/threeDotsTheme</item>-->
+        <item name="android:textSize">11dp</item>
     </style>
 
     <style name="CheckboxStyle" parent="@android:style/Widget.Holo.Light.CompoundButton.CheckBox">
@@ -73,7 +73,8 @@
         <item name="android:windowBackground">@android:color/black</item>
     </style>
 
-    <style name="My.Theme.Dialog" parent="@android:style/Theme.Holo.Light.Dialog" /-->
+    <style name="My.Theme.Dialog" parent="@android:style/Theme.Holo.Light.Dialog" />
+    -->
 
     <style name="My.Widget.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@color/colorPrimary</item>
@@ -102,7 +103,7 @@
     </style>
 
     <style name="viewPagerTitleStrip">
-        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:textSize">14sp</item>
@@ -112,7 +113,7 @@
     <style name="My.TextAppearance.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textColor">@color/fg_value_black</item>
         <item name="android:textStyle">bold</item>
-        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="fontFamily">@font/gotham_medium</item>
     </style>
 
     <style name="My.TextAppearance.Widget.ActionBar.Subtitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
@@ -195,11 +196,11 @@
     </style>
 
     <style name="MontserratMedium">
-        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="fontFamily">@font/gotham</item>
     </style>
 
     <style name="MontserratButton" parent="Widget.AppCompat.Button.Borderless">
-        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="fontFamily">@font/gotham_medium</item>
         <item name="android:textColor">@color/main_button</item>
         <item name="android:background">@drawable/main_button</item>
         <item name="android:textSize">14sp</item>
@@ -276,7 +277,7 @@
     </style>
 
     <style name="NavigationTheme" parent="My.Theme">
-        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="fontFamily">@font/gotham_medium</item>
         <item name="android:textSize">14sp</item>
     </style>
 
