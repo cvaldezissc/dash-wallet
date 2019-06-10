@@ -15,6 +15,7 @@
         android:background="@color/colorPrimary"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:theme="@style/threeDotsTheme"
+
         />
 
 </android.support.design.widget.AppBarLayout>

@@ -95,7 +95,6 @@ public final class AddressBookActivity extends AbstractBindServiceActivity {
 					sendingAddressesFragment, leftTitle, rightTitle);
 			pager.setAdapter(adapter);
 			TabLayout tabs = findViewById(R.id.address_book_pager_tabs);
-			tabs.setSelectedTabIndicatorColor(R.color.fg_value_black);
 			final int position = 1;
 			pager.setCurrentItem(position);
 			pager.setPageMargin(2);

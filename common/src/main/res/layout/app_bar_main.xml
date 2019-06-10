@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
-        app:theme="@style/threeDotsTheme"
+        android:theme="@style/MyTheme.ActionBarStyle"
         app:popupTheme="@style/My.PopupOverlay"
         >
 
@@ -46,7 +46,8 @@
             tools:text="Synchronizing with network. 3 months behind."
             android:textColor="@color/fg_value_black"
             app:fontFamily="@font/montserrat_regular"
-            android:textSize="12sp" />
+            android:textSize="12sp"
+            />
 
     </RelativeLayout>
 

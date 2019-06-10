@@ -10,6 +10,11 @@
         app:showAsAction="never"
         />
     <item
+        android:id="@+id/wallet_options_enable_fingerprint"
+        android:title="@string/enable_fingerprint"
+        app:showAsAction="never"
+        />
+    <item
         android:id="@+id/wallet_options_backup_wallet"
         android:title="@string/export_keys_dialog_title"
         app:showAsAction="never"
@@ -34,10 +39,6 @@
         android:title="@string/encrypt_keys_dialog_title"
         app:showAsAction="never"
         />
-    <item
-        android:id="@+id/wallet_options_enable_fingerprint"
-        android:title="@string/enable_fingerprint"
-        app:showAsAction="never"
-        />
+
 
 </menu>

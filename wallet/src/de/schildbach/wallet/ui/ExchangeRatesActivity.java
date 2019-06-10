@@ -19,6 +19,8 @@ package de.schildbach.wallet.ui;
 
 import de.schildbach.wallet_test.R;
 
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -31,7 +33,14 @@ public final class ExchangeRatesActivity extends AbstractBindServiceActivity {
         super.onCreate(savedInstanceState);
 
 
+
+
         setContentView(R.layout.exchange_rates_content);
+
+        final Drawable goBackArrow = getResources().getDrawable(R.drawable.ic_arrow_back_white_24dp);
+        goBackArrow.setColorFilter(getResources().getColor(R.color.fg_value_black), PorterDuff.Mode.SRC_ATOP);
+        getSupportActionBar().setHomeAsUpIndicator(goBackArrow);
+
     }
 
     @Override

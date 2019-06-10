@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.support.annotation.LayoutRes;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.ActionBar;
@@ -93,6 +94,7 @@ public abstract class AbstractWalletActivity extends AppCompatActivity implement
                 actionBar.setDisplayShowHomeEnabled(true);
             }
         }
+        toolbarView.getNavigationIcon().setColorFilter(getResources().getColor(R.color.fg_value_black), PorterDuff.Mode.SRC_ATOP);
     }
 
     @Override

@@ -48,6 +48,7 @@ import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -55,14 +56,17 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewParent;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.SearchView.OnQueryTextListener;
 import android.widget.TextView;
 import android.widget.ViewAnimator;
 
+import java.lang.reflect.Field;
 import java.util.List;
 
 /**
@@ -147,7 +151,10 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
 
         loading = view.findViewById(R.id.exchange_rates_loading);
         emptySearchView = view.findViewById(R.id.exchange_rates_empty_search);
+
+
         loadingErrorView = view.findViewById(R.id.exchange_rates_loading_error);
+
 
         recyclerView = (RecyclerView) view.findViewById(R.id.exchange_rates_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(activity));
@@ -190,6 +197,9 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
         walletLockMenuItem.setVisible(WalletLock.getInstance().isWalletLocked(wallet));
 
         final SearchView searchView = (SearchView) menu.findItem(R.id.exchange_rates_options_search).getActionView();
+
+        setupSearchBar(searchView);
+
         searchView.setOnQueryTextListener(new OnQueryTextListener() {
             @Override
             public boolean onQueryTextChange(final String newText) {
@@ -207,19 +217,37 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
             @Override
             public boolean onQueryTextSubmit(final String query) {
                 searchView.clearFocus();
-
                 return true;
             }
         });
 
-        // Workaround for not being able to style the SearchView
-        final int id = searchView.getContext().getResources().getIdentifier("android:id/search_src_text", null, null);
-        final View searchInput = searchView.findViewById(id);
-        if (searchInput instanceof EditText)
-            ((EditText) searchInput).setTextColor(Color.WHITE);
+
 
         super.onCreateOptionsMenu(menu, inflater);
     }
+
+
+
+    private void setupSearchBar(SearchView searchView) {
+        try {
+            Field searchField = SearchView.class.getDeclaredField("mCloseButton");
+            searchField.setAccessible(true);
+            ImageView closeBtn = (ImageView) searchField.get(searchView);
+            closeBtn.setImageResource(R.drawable.ic_close_white_24dp);
+
+            ((EditText) searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text))
+                    .setHintTextColor(getResources().getColor(R.color.gray));
+            ((EditText) searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text))
+                    .setTextColor(getResources().getColor(R.color.fg_value_black));
+
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 
     @Override
     public void onSharedPreferenceChanged(final SharedPreferences sharedPreferences, final String key) {
