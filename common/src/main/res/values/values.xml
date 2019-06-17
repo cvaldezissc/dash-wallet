@@ -4,8 +4,8 @@
 	<string name="symbol_to">→</string>
 	<string name="symbol_from">←</string>
 	<string name="symbol_internal">⇄</string>
-	<string name="app_name">Dash Wallet</string>
-	<string name="app_name_short">Dash</string>
+	<string name="app_name">$PAC Wallet</string>
+	<string name="app_name_short">$PAC</string>
 
 	<string-array name="preferences_precision_values">
 		<item>8</item>
@@ -26,7 +26,7 @@
 		<item>http://explorer.dash.org/chain/Dash/</item>
 	</string-array>
 	<string-array name="preferences_block_explorer_labels">
-		<item>Dash Insight Block Explorer</item>
-		<item>Dash Block Explorer (Official)</item>
+		<item>$PAC Insight Block Explorer</item>
+		<item>$PAC Block Explorer (Official)</item>
 	</string-array>
 </resources>
