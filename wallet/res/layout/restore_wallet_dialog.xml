@@ -40,7 +40,7 @@
             android:singleLine="true"
             style="@style/MontserratMedium.DB.14"/>
 
-        <de.schildbach.wallet.ui.widget.MontserratCheckBox
+        <net.paccoin.wallet.ui.widget.MontserratCheckBox
             android:id="@+id/import_keys_from_storage_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

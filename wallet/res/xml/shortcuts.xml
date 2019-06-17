@@ -6,7 +6,7 @@
         android:shortcutShortLabel="@string/button_scan" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="de.schildbach.wallet.ui.SendCoinsQrActivity"
+            android:targetClass="net.paccoin.wallet.ui.SendCoinsQrActivity"
             android:targetPackage="hashengineering.darkcoin.wallet" />
     </shortcut>
     <shortcut
@@ -15,7 +15,7 @@
         android:shortcutShortLabel="@string/button_send_coins" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="de.schildbach.wallet.ui.send.SendCoinsActivity"
+            android:targetClass="net.paccoin.wallet.ui.send.SendCoinsActivity"
             android:targetPackage="hashengineering.darkcoin.wallet" />
     </shortcut>
     <shortcut
@@ -24,7 +24,7 @@
         android:shortcutShortLabel="@string/button_request_coins" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="de.schildbach.wallet.ui.RequestCoinsActivity"
+            android:targetClass="net.paccoin.wallet.ui.RequestCoinsActivity"
             android:targetPackage="hashengineering.darkcoin.wallet" />
     </shortcut>
 

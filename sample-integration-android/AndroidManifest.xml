@@ -17,7 +17,7 @@
 	<application android:label="Dash in-app payment sample" >
 
 		<activity
-			android:name="de.schildbach.wallet.integration.sample.SampleActivity"
+			android:name="net.paccoin.wallet.integration.sample.SampleActivity"
 			android:theme="@android:style/Theme.Light" >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />

@@ -58,7 +58,7 @@
         style="@style/MontserratSemiBold"
         />
 
-    <de.schildbach.wallet.ui.widget.FingerprintView
+    <net.paccoin.wallet.ui.widget.FingerprintView
         android:id="@+id/fingerprint_view"
         android:visibility="gone"
         tools:visibility="visible"

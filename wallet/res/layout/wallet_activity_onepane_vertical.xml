@@ -43,7 +43,7 @@
             android:layout_height="match_parent"
             >
 
-            <de.schildbach.wallet.ui.ExtAppBarLayout
+            <net.paccoin.wallet.ui.ExtAppBarLayout
                 android:id="@+id/appbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
 
             <fragment
                 android:id="@+id/wallet_transactions_fragment"
-                android:name="de.schildbach.wallet.ui.WalletTransactionsFragment"
+                android:name="net.paccoin.wallet.ui.WalletTransactionsFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior"

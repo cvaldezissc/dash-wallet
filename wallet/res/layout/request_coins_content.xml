@@ -22,7 +22,7 @@
 
             <fragment
                 android:id="@+id/request_coins_fragment"
-                android:name="de.schildbach.wallet.ui.RequestCoinsFragment"
+                android:name="net.paccoin.wallet.ui.RequestCoinsFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:layout="@layout/request_coins_fragment"

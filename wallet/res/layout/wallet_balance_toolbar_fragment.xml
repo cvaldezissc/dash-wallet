@@ -39,7 +39,7 @@
                     android:src="@drawable/ic_dash_d_white_bottom"
                     />
 
-                <de.schildbach.wallet.ui.ToolbarCurrencyTextView
+                <net.paccoin.wallet.ui.ToolbarCurrencyTextView
                     android:id="@+id/wallet_balance_btc"
                     android:maxLength="7"
                     app:fontFamily="@font/montserrat_regular"
@@ -53,7 +53,7 @@
 
             </LinearLayout>
 
-            <de.schildbach.wallet.ui.ToolbarCurrencyTextView
+            <net.paccoin.wallet.ui.ToolbarCurrencyTextView
                 android:id="@+id/wallet_balance_local"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

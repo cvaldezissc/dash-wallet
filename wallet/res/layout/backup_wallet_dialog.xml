@@ -88,7 +88,7 @@
                 />
         </LinearLayout>
 
-        <de.schildbach.wallet.ui.widget.MontserratCheckBox
+        <net.paccoin.wallet.ui.widget.MontserratCheckBox
             android:id="@+id/backup_wallet_dialog_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

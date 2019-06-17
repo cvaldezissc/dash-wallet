@@ -5,7 +5,7 @@
     style="@style/DialogContainer"
     >
 
-    <de.schildbach.wallet.ui.widget.FingerprintView
+    <net.paccoin.wallet.ui.widget.FingerprintView
         android:id="@+id/fingerprint_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

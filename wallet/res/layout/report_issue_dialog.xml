@@ -32,7 +32,7 @@
             style="@style/MontserratRegular"
             />
 
-        <de.schildbach.wallet.ui.widget.MontserratCheckBox
+        <net.paccoin.wallet.ui.widget.MontserratCheckBox
             android:id="@+id/report_issue_dialog_collect_device_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
             style="@style/CheckBox"
             />
 
-        <de.schildbach.wallet.ui.widget.MontserratCheckBox
+        <net.paccoin.wallet.ui.widget.MontserratCheckBox
             android:id="@+id/report_issue_dialog_collect_application_log"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
             style="@style/CheckBox"
             />
 
-        <de.schildbach.wallet.ui.widget.MontserratCheckBox
+        <net.paccoin.wallet.ui.widget.MontserratCheckBox
             android:id="@+id/report_issue_dialog_collect_wallet_dump"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             style="@style/CheckBox"
             />
 
-        <de.schildbach.wallet.ui.widget.MontserratCheckBox
+        <net.paccoin.wallet.ui.widget.MontserratCheckBox
             android:id="@+id/report_issue_dialog_collect_installed_packages"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

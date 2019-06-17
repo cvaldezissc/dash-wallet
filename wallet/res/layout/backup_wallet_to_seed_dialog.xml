@@ -84,7 +84,7 @@
                 android:visibility="gone"
                 />
 
-            <de.schildbach.wallet.ui.widget.FingerprintView
+            <net.paccoin.wallet.ui.widget.FingerprintView
                 android:id="@+id/fingerprint_view"
                 android:visibility="gone"
                 tools:visibility="visible"
@@ -161,7 +161,7 @@
                 style="@style/MontserratRegular.MG.12"
                 />
 
-            <de.schildbach.wallet.ui.widget.MontserratCheckBox
+            <net.paccoin.wallet.ui.widget.MontserratCheckBox
                 android:id="@+id/backup_wallet_seed_private_key_written_down"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
