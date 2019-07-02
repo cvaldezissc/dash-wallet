@@ -22,6 +22,7 @@ public class DashCasaClient extends RetrofitClient {
     public static DashCasaClient getInstance() {
         if (instance == null) {
             instance = new DashCasaClient("https://dash.casa/");
+            instance = new DashCasaClient("https://dash.casa/");
         }
         return instance;
     }
@@ -39,7 +40,7 @@ public class DashCasaClient extends RetrofitClient {
     }
 
     private interface DashCasaService {
-        @GET("api/?cur=VES")
+        @GET("api/?cur=USD")
         Call<DashCasaResponse> getRates();
     }
 

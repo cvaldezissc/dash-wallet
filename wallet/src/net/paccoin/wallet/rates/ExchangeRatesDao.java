@@ -20,6 +20,9 @@ public interface ExchangeRatesDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertAll(List<ExchangeRate> exchangeRates);
 
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    void insert(ExchangeRate exchangeRate);
+
     @Query("SELECT * FROM exchange_rates WHERE currencyCode = :currencyCode LIMIT 1")
     LiveData<ExchangeRate> getRate(String currencyCode);
 

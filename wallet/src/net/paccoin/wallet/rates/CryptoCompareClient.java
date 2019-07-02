@@ -48,7 +48,7 @@ public class CryptoCompareClient extends RetrofitClient {
         @GET("data/generateAvg?fsym=DASH&tsym=BTC&e=Binance,Kraken,Poloniex,Bitfinex")
         Call<Rate> getDashCustomAverage();
 
-        @GET("data/price?fsym=BTC&tsyms=VES")
+        @GET("data/price?fsym=BTC&tsyms=USD")
         Call<CryptoCompareVesBtcRate> getVESBTCRate();
     }
 

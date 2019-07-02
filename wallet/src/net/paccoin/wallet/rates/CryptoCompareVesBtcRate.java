@@ -9,7 +9,7 @@ import java.math.BigDecimal;
  */
 public class CryptoCompareVesBtcRate {
 
-    @Json(name = "VES")
+    @Json(name = "USD")
     private final BigDecimal rate;
 
     public CryptoCompareVesBtcRate(BigDecimal rate) {

@@ -2,6 +2,7 @@ package net.paccoin.wallet.rates;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
+import android.util.Log;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +15,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import net.paccoin.wallet.AppDatabase;
+import net.paccoin.wallet.rates.restclient.APIClient;
+import net.paccoin.wallet.rates.restclient.model.APIInterface;
+import net.paccoin.wallet.rates.restclient.model.PACRateResponse;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  * @author Samuel Barbosa
@@ -35,12 +43,43 @@ public class ExchangeRatesRepository {
 
     private boolean isRefreshing = false;
 
+
+    public APIInterface apiInterface;
+    public PACRateResponse pacRateResponse;
+
     private ExchangeRatesRepository() {
         appDatabase = AppDatabase.getAppDatabase();
         executor = Executors.newSingleThreadExecutor();
 
         populateExchangeRatesStack();
+
+
+        apiInterface = APIClient.getRetrofit().create(APIInterface.class);
+        makeRestCall();
     }
+
+    private void makeRestCall() {
+
+        Call<PACRateResponse> call = apiInterface.getPACRate();
+
+        call.enqueue(new Callback<PACRateResponse>() {
+            @Override
+            public void onResponse(Call<PACRateResponse> call, Response<PACRateResponse> response) {
+                Log.w("SERVICE_RETROFIT_EXCHAN", "[REPOSITORY] It Answered -> \n"+response.body().toString());
+                pacRateResponse = response.body();
+            }
+
+            @Override
+            public void onFailure(Call<PACRateResponse> call, Throwable t) {
+                call.cancel();
+            }
+        });
+
+
+    }
+
+
+
 
     public static ExchangeRatesRepository getInstance() {
         if (instance == null) {
@@ -80,10 +119,23 @@ public class ExchangeRatesRepository {
             @Override
             public void run() {
                 List<ExchangeRate> rates;
+
                 try {
                     rates = exchangeRatesClient.getRates();
                     if (rates != null && !rates.isEmpty()) {
-                        appDatabase.exchangeRatesDao().insert(rates.get(147));
+
+
+
+
+                        //Log.w("SERVICE_RETROFIT2", "This is PacRateResponse repository "+pacRateResponse.data.currency +" :::: "+pacRateResponse.data.pac_price);
+
+                        appDatabase.exchangeRatesDao().insert(new ExchangeRate("USD", "" + pacRateResponse.data.pac_price + ""));
+
+                        //appDatabase.exchangeRatesDao().insert(rates.get(147));
+
+
+
+
                         lastUpdated = System.currentTimeMillis();
                         populateExchangeRatesStack();
                         hasError.postValue(false);

@@ -1,6 +1,7 @@
 package net.paccoin.wallet.rates;
 
 import android.support.annotation.Nullable;
+import android.util.Log;
 
 import com.squareup.moshi.Moshi;
 
@@ -27,7 +28,8 @@ public class DashRatesClient extends RetrofitClient implements ExchangeRatesClie
     private DashRatesService dashRatesService;
 
     private DashRatesClient() {
-        super("https://api.get-spark.com/");
+        //super("https://api.get-spark.com/");
+        super("http://explorer.pachub.io/");
         Moshi moshi = moshiBuilder.add(new ExchangeRateListMoshiAdapter()).build();
         retrofit = retrofitBuilder.addConverterFactory(MoshiConverterFactory.create(moshi)).build();
         dashRatesService = retrofit.create(DashRatesService.class);
@@ -37,6 +39,13 @@ public class DashRatesClient extends RetrofitClient implements ExchangeRatesClie
     @Nullable
     public List<ExchangeRate> getRates() throws Exception {
         List<ExchangeRate> rates = dashRatesService.getRates().execute().body();
+
+        for (ExchangeRate rate : rates) {
+
+            Log.w("THERATE", rate.getFiat() + " -> " + rate.getCurrencyCode() + " -> $ " + rate.getRate());
+        }
+
+
         if (rates == null || rates.isEmpty()) {
             throw new IllegalStateException("Failed to fetch prices from DashRates source");
         }
@@ -44,7 +53,8 @@ public class DashRatesClient extends RetrofitClient implements ExchangeRatesClie
     }
 
     private interface DashRatesService {
-        @GET("list")
+        //@GET("list")
+        @GET("api/currency/usd")
         Call<List<ExchangeRate>> getRates();
     }
 

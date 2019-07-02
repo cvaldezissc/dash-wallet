@@ -9,7 +9,7 @@ import java.math.BigDecimal;
  */
 public class DashCasaResponse {
 
-    @Json(name = "dashrate")
+    @Json(name = "btcrate")
     private final BigDecimal dashVesPrice;
 
     public DashCasaResponse(BigDecimal dashVesPrice) {

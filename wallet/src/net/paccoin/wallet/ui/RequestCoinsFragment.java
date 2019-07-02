@@ -36,6 +36,8 @@ import net.paccoin.wallet.Constants;
 import net.paccoin.wallet.WalletApplication;
 import net.paccoin.wallet.offline.AcceptBluetoothService;
 import net.paccoin.wallet.rates.ExchangeRatesViewModel;
+import net.paccoin.wallet.rates.restclient.model.APIInterface;
+import net.paccoin.wallet.rates.restclient.model.PACRateResponse;
 import net.paccoin.wallet.ui.send.SendCoinsActivity;
 import net.paccoin.wallet.util.BitmapFragment;
 import net.paccoin.wallet.util.Bluetooth;
@@ -64,6 +66,7 @@ import android.nfc.NfcEvent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.SpannableStringBuilder;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -76,6 +79,10 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  * @author Andreas Schildbach
@@ -109,7 +116,25 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
     private Address address;
     private CurrencyCalculatorLink amountCalculatorLink;
 
+    private APIInterface apiInterface;
+
     private static final Logger log = LoggerFactory.getLogger(RequestCoinsFragment.class);
+
+
+
+    public PACRateResponse pacRateResponse = null;
+
+
+    public PACRateResponse getPacRateResponse() {
+        return pacRateResponse;
+    }
+
+    public void setPacRateResponse(PACRateResponse pacRateResponse) {
+        this.pacRateResponse = pacRateResponse;
+    }
+
+
+
 
     @Override
     public void onAttach(final Activity activity) {
@@ -139,7 +164,36 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
             address = wallet.freshReceiveAddress();
             log.info("request coins started: {}", address);
         }
+
+        new Runnable() {
+            @Override
+            public void run() {
+                makeRestCall();
+            }
+        };
+
     }
+
+
+    void makeRestCall(){
+        Call<PACRateResponse> call = apiInterface.getPACRate();
+
+        call.enqueue(new Callback<PACRateResponse>() {
+            @Override
+            public void onResponse(Call<PACRateResponse> call, Response<PACRateResponse> response) {
+                Log.w("SERVICE_RETROFIT", "[FRAGMENT] It Answered with the statusCode: "+response.body().toString());
+            }
+
+            @Override
+            public void onFailure(Call<PACRateResponse> call, Throwable t) {
+                Log.w("SERVICE_RETROFIT", "[FRAGMENT] there was an error "+t.getCause());
+                call.cancel();
+            }
+        });
+    }
+
+
+
 
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
@@ -278,7 +332,7 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
         }
     }
 
-   private boolean maybeStartBluetoothListening() {
+    private boolean maybeStartBluetoothListening() {
         final String bluetoothAddress = Bluetooth.getAddress(bluetoothAdapter);
         if (bluetoothAddress != null) {
             bluetoothMac = Bluetooth.compressMac(bluetoothAddress);

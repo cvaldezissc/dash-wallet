@@ -17,24 +17,74 @@
 
 package net.paccoin.wallet.ui;
 
+import net.paccoin.wallet.rates.restclient.APIClient;
+import net.paccoin.wallet.rates.restclient.model.APIInterface;
+import net.paccoin.wallet.rates.restclient.model.PACRateResponse;
 import net.paccoin.wallet_test.R;
-
 import android.os.Bundle;
-
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  * @author Andreas Schildbach
  */
 public final class RequestCoinsActivity extends AbstractBindServiceActivity {
+
+
+    APIInterface apiInterface;
+
+    public PACRateResponse pacRateResponse = null;
+
+
+    public PACRateResponse getPacRateResponse() {
+        return pacRateResponse;
+    }
+
+    public void setPacRateResponse(PACRateResponse pacRateResponse) {
+        this.pacRateResponse = pacRateResponse;
+    }
+
+
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.request_coins_content);
+
+
+        apiInterface = APIClient.getRetrofit().create(APIInterface.class);
+        makeRestCall();
+
+
     }
+
+
+    void makeRestCall(){
+        Call<PACRateResponse> call = apiInterface.getPACRate();
+
+        call.enqueue(new Callback<PACRateResponse>() {
+            @Override
+            public void onResponse(Call<PACRateResponse> call, Response<PACRateResponse> response) {
+                Log.w("SERVICE_RETROFIT", "[ACTIVITY] It Answered -> \n"+response.body().toString());
+                setPacRateResponse(response.body());
+
+            }
+
+            @Override
+            public void onFailure(Call<PACRateResponse> call, Throwable t) {
+                Log.w("SERVICE_RETROFIT", "[ACTIVITY] there was an error "+t.getCause());
+                call.cancel();
+            }
+        });
+    }
+
+
+
 
     @Override
     public void onAttachedToWindow() {
