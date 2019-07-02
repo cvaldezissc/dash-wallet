@@ -83,7 +83,7 @@ public class ExchangeRatesRepository {
                 try {
                     rates = exchangeRatesClient.getRates();
                     if (rates != null && !rates.isEmpty()) {
-                        appDatabase.exchangeRatesDao().insertAll(rates);
+                        appDatabase.exchangeRatesDao().insert(rates.get(147));
                         lastUpdated = System.currentTimeMillis();
                         populateExchangeRatesStack();
                         hasError.postValue(false);

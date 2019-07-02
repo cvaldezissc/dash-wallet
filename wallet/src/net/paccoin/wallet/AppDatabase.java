@@ -20,7 +20,7 @@ public abstract class AppDatabase extends RoomDatabase {
     public static AppDatabase getAppDatabase() {
         if (instance == null) {
             instance = Room.databaseBuilder(WalletApplication.getInstance(),
-                    AppDatabase.class, "dash-wallet-database").build();
+                    AppDatabase.class, "pac-wallet-database").build();
         }
         return instance;
     }
