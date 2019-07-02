@@ -267,7 +267,7 @@ public final class WalletActivity extends AbstractBindServiceActivity
                 super.onDrawerOpened(drawerView);
                 final Resources res = getResources();
                 Menu menu = navigationView.getMenu();
-                menu.findItem(R.id.nav_exchenge_rates).setEnabled(res.getBoolean(R.bool.show_exchange_rates_option));
+                //menu.findItem(R.id.nav_exchenge_rates).setEnabled(res.getBoolean(R.bool.show_exchange_rates_option));
             }
         };
 
@@ -1158,8 +1158,8 @@ public final class WalletActivity extends AbstractBindServiceActivity
 
         } else if (id == R.id.nav_address_book) {
             AddressBookActivity.start(this);
-        } else if (id == R.id.nav_exchenge_rates) {
-            startActivity(new Intent(this, ExchangeRatesActivity.class));
+//        } else if (id == R.id.nav_exchenge_rates) {
+//            startActivity(new Intent(this, ExchangeRatesActivity.class));
         } else if (id == R.id.nav_paper_wallet) {
             SweepWalletActivity.start(this);
         } else if (id == R.id.nav_network_monitor) {

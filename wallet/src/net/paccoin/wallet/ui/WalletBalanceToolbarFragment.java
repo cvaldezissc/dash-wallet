@@ -321,8 +321,8 @@ public final class WalletBalanceToolbarFragment extends Fragment implements Wall
 	}
 
 	private void showExchangeRatesActivity() {
-		Intent intent = new Intent(getActivity(), ExchangeRatesActivity.class);
-		getActivity().startActivity(intent);
+		//Intent intent = new Intent(getActivity(), ExchangeRatesActivity.class);
+		//getActivity().startActivity(intent);
 	}
 
 	private final LoaderManager.LoaderCallbacks<BlockchainState> blockchainStateLoaderCallbacks = new LoaderManager.LoaderCallbacks<BlockchainState>()

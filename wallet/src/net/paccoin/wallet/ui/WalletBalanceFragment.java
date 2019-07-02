@@ -123,7 +123,7 @@ public final class WalletBalanceFragment extends Fragment {
             viewBalance.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(final View v) {
-                    startActivity(new Intent(getActivity(), ExchangeRatesActivity.class));
+                    //startActivity(new Intent(getActivity(), ExchangeRatesActivity.class));
                 }
             });
         } else {
