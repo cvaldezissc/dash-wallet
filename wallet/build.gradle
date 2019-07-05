@@ -40,6 +40,10 @@ dependencies {
     implementation 'com.google.zxing:core:3.3.1'
     implementation 'com.squareup.okhttp:okhttp:2.7.5'
     implementation 'com.squareup.okhttp:logging-interceptor:2.7.5'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.0.0'
+    implementation "com.squareup.okhttp3:logging-interceptor:4.0.0"
     implementation 'com.squareup.moshi:moshi:1.5.0'
     implementation 'org.slf4j:slf4j-api:1.7.25'
     implementation('com.github.tony19:logback-android-classic:1.1.1-6') {
@@ -76,7 +80,7 @@ dependencies {
 
 
 ext {
-    archivesBaseName = 'dash-wallet'
+    archivesBaseName = 'pac-wallet'
 }
 
 android {
@@ -153,7 +157,7 @@ android {
             applicationId = "hashengineering.dash.wallet.beta"
         }
         prod {
-            applicationId = "hashengineering.darkcoin.wallet"
+            applicationId = "hashengineering.paccoin.wallet"
         }
         _testNet3 {
             applicationId = "hashengineering.darkcoin.wallet_test"

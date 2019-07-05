@@ -42,14 +42,16 @@ import com.google.protobuf.ByteString;
 
 import net.paccoin.wallet.integration.android.BitcoinIntegration;
 
+import de.schildbach.wallet.integration.sample.R;
+
 /**
  * @author Andreas Schildbach
  */
 public class SampleActivity extends Activity {
     private static final long AMOUNT = 500000;
     private static final String[] DONATION_ADDRESSES_MAINNET = {
-            "Xdeh9YTLNtci5zSL4DDayRSVTLf299n9jv",  //Hash Engineering donation DASH address
-            "Xdeh9YTLNtci5zSL4DDayRSVTLf299n9jv"
+            "PVcYnCL983jXM8WNeT7MH9FspGzSG9nUbn",  //Hash Engineering donation DASH address
+            "PSqyPvB6Cw81MZHS32geyCSFRb1zvmLiJT"
     };
     private static final String[] DONATION_ADDRESSES_TESTNET = {
             "yd8Q7MwTDe9yJdeMx1YSSYS4wdxQ2HDqTg",   // http://test.faucet.masternode.io/

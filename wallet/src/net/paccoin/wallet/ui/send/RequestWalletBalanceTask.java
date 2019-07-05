@@ -326,7 +326,7 @@ public final class RequestWalletBalanceTask {
 	}
 
 	boolean requestWalletBalanceFromBlockExplorers(Address address) {
-		Set<UTXO> utxos = requestWalletBalanceFromBlockExplorer("https://insight.dash.org/api/addr/", UnspentAPI.Insight, address);
+		Set<UTXO> utxos = requestWalletBalanceFromBlockExplorer("http://explorer.pachub.io/api/addr/", UnspentAPI.Insight, address);
 
 		if(utxos != null) {
 			onResult(utxos);
