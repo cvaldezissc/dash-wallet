@@ -22,14 +22,14 @@
         android:textStyle="bold"
         android:layout_marginBottom="4dp"
         tools:text="(unlabeled)"
-        style="@style/MontserratRegular.DB.12"/>
+        style="@style/GothamRegular.DB.12"/>
 
     <TextView
         android:id="@+id/address_book_row_address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="P8gMeBTpEXqqxMFSkcAbb6tDsUWbdshB2C"
-        style="@style/MontserratRegular.MG.12"/>
+        style="@style/GothamRegular.MG.12"/>
 
     <TextView
         android:id="@+id/address_book_row_message"
@@ -39,7 +39,7 @@
         android:text="@string/address_book_row_message_compromised_key"
         android:textColor="@color/fg_error"
         android:textSize="@dimen/font_size_small"
-        style="@style/MontserratMedium"
+        style="@style/GothamMedium"
         android:visibility="gone" />
 
 </LinearLayout>

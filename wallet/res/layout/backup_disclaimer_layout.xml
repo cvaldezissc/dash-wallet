@@ -18,7 +18,7 @@
         android:layout_marginBottom="18dp"
         android:gravity="center"
         android:text="@string/wallet_disclaimer_fragment_remind_backup"
-        style="@style/MontserratMedium.MG.12"
+        style="@style/GothamMedium.MG.12"
         />
 
     <LinearLayout
@@ -38,7 +38,7 @@
             android:text="@string/backup_now"
             android:layout_marginRight="2dp"
             android:layout_marginEnd="2dp"
-            style="@style/MontserratButton"
+            style="@style/GothamButton"
             />
 
         <Button
@@ -49,7 +49,7 @@
             android:text="@string/remind_later"
             android:layout_marginLeft="2dp"
             android:layout_marginStart="2dp"
-            style="@style/MontserratButton.Inverted"
+            style="@style/GothamButton.Inverted"
             />
 
     </LinearLayout>

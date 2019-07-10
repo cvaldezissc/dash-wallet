@@ -233,8 +233,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 decimal places</string>
     <string name="preferences_precision_labels_6">$PAC, 6 decimal places</string>
     <string name="preferences_precision_labels_4">$PAC, 4 decimal places</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 decimal places</string>
-    <string name="preferences_precision_labels_0_6">µDASH, no decimal places</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 decimal places</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, no decimal places</string>
     <string name="preferences_own_name_title">Own name</string>
     <string name="preferences_own_name_summary">Name of yourself, to be added to payment requests. Try to keep it short.</string>
     <string name="preferences_send_coins_autoclose_title">Auto-close send coins dialog</string>
@@ -343,5 +343,14 @@
 
     <string name="dash_slogan">Instant - Private - Secure</string>
     <string name="dash_wallet">Wallet</string>
+
+
+    <string name="raise_fee_dialog_title">Increase Fee</string>
+    <string name="raise_fee_dialog_button_raise">Lifting</string>
+    <string name="raise_fee_dialog_cant_raise">The online fee for this payment can not be increased.</string>
+    <string name="raise_fee_dialog_determining_fee">A network fee is determined ...</string>
+    <string name="raise_fee_dialog_message">Do you want to increase the network commission for this payment for% s? This will confirm the payment more quickly.</string>
+    <string name="raise_fee_dialog_state_decrypting">Decrypting ...</string>
+    <string name="raise_fee_dialog_state_done">Finished.</string>
 
 </resources>

@@ -49,6 +49,7 @@ import android.support.v7.widget.Toolbar;
 import android.telephony.TelephonyManager;
 import android.text.format.DateUtils;
 import android.view.ContextMenu;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -157,6 +158,8 @@ public final class WalletActivity extends AbstractBindServiceActivity
         config = application.getConfiguration();
         wallet = application.getWallet();
 
+
+
         setContentView(R.layout.wallet_activity_onepane_vertical);
 
         if (savedInstanceState == null) {
@@ -184,7 +187,7 @@ public final class WalletActivity extends AbstractBindServiceActivity
 
         MaybeMaintenanceFragment.add(getSupportFragmentManager());
 
-        initUphold();
+        //initUphold();
         initView();
 
         //Prevent showing dialog twice or more when activity is recreated (e.g: rotating device, etc)
@@ -205,6 +208,9 @@ public final class WalletActivity extends AbstractBindServiceActivity
         if (!veryFirstLaunch) {
             canAutoLockGuard.register(true);
         }
+
+
+
     }
 
     @Override
@@ -400,12 +406,28 @@ public final class WalletActivity extends AbstractBindServiceActivity
 
     @Override
     public boolean onCreateOptionsMenu(final Menu menu) {
-        super.onCreateOptionsMenu(menu);
+        menu.clear();
 
         getMenuInflater().inflate(R.menu.wallet_options, menu);
 
+
         MenuItem walletLockMenuItem = menu.findItem(R.id.wallet_options_lock);
         walletLockMenuItem.setVisible(WalletLock.getInstance().isWalletLocked(wallet));
+
+
+
+
+
+
+
+
+
+        return true;
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+
 
         return true;
     }
@@ -472,6 +494,7 @@ public final class WalletActivity extends AbstractBindServiceActivity
 
         return super.onOptionsItemSelected(item);
     }
+
 
     public void handleRequestCoins() {
         startActivity(new Intent(this, RequestCoinsActivity.class));

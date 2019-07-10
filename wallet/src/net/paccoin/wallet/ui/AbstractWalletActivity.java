@@ -109,6 +109,7 @@ public abstract class AbstractWalletActivity extends AppCompatActivity implement
 
     @Override
     public boolean onCreateOptionsMenu(final Menu menu) {
+
         MenuItem walletLockMenuItem = menu.findItem(R.id.wallet_options_lock);
         if (walletLockMenuItem != null) {
             walletLockMenuItem.setVisible(WalletLock.getInstance()

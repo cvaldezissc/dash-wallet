@@ -51,7 +51,7 @@
             android:text="@string/net_type_indicator"
             tools:ignore="HardcodedText"
             tools:visibility="visible"
-            style="@style/MontserratMedium"
+            style="@style/GothamMedium"
             />
 
     </RelativeLayout>

@@ -13,7 +13,7 @@
 		android:layout_height="wrap_content"
 		android:layout_marginBottom="18dp"
 		android:text="@string/request_coins_fragment_amount_label"
-		style="@style/MontserratSemiBold.DB.14"
+		style="@style/GothamSemiBold.DB.14"
 		/>
 
 	<LinearLayout
@@ -38,7 +38,7 @@
 					android:layout_height="wrap_content"
 					android:imeOptions="flagNoExtractUi"
 					android:textSize="16sp"
-					style="@style/MontserratRegular"
+					style="@style/GothamRegular"
 					tools:ignore="TextFields"
 					/>
 
@@ -58,7 +58,7 @@
 					android:layout_height="wrap_content"
 					android:imeOptions="flagNoExtractUi"
 					android:textSize="16sp"
-					style="@style/MontserratRegular"
+					style="@style/GothamRegular"
 					tools:ignore="TextFields"
 					/>
 

@@ -27,8 +27,10 @@ import org.bitcoinj.wallet.Wallet;
 import com.google.common.collect.Iterables;
 import net.paccoin.wallet.Constants;
 import net.paccoin.wallet_test.R;
+
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
@@ -102,7 +104,7 @@ public final class AddressBookActivity extends AbstractBindServiceActivity {
 			for (int i = 0; i < tabs.getTabCount(); i++) {
 				TextView tv = (TextView) LayoutInflater.from(this).inflate(R.layout.tab_title, null);
 				tabs.getTabAt(i).setCustomView(tv);
-				tv.setTextColor(R.color.fg_value_black);
+				tv.setTextColor(Color.BLACK);
 			}
         } else {
 			fragmentManager.beginTransaction().add(R.id.wallet_addresses_fragment, walletAddressesFragment, TAG_LEFT)

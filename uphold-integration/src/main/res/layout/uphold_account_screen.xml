@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/uphold_account_dash_balance"
-                style="@style/MontserratMedium.DB.14"/>
+                style="@style/GothamMedium.DB.14"/>
 
         </LinearLayout>
 
@@ -68,13 +68,13 @@
                 tools:text="0.00"
                 android:includeFontPadding="false"
                 android:textColor="@color/colorPrimary"
-                style="@style/MontserratRegular" />
+                style="@style/GothamRegular" />
 
         </LinearLayout>
 
         <Button
             android:id="@+id/uphold_buy_dash_btn"
-            style="@style/MontserratButton.Inverted"
+            style="@style/GothamButton.Inverted"
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
 
         <Button
             android:id="@+id/uphold_transfer_to_this_wallet_button"
-            style="@style/MontserratButton"
+            style="@style/GothamButton"
             android:layout_above="@id/uphold_buy_dash_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

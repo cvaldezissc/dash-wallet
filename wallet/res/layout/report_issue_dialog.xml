@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/space_medium"
             android:layout_marginTop="6dp"
-            style="@style/MontserratRegular.DB.12"
+            style="@style/GothamRegular.DB.12"
             />
 
         <EditText
@@ -29,7 +29,7 @@
             android:inputType="text|textCapSentences|textMultiLine"
             android:textSize="12sp"
             android:textColor="@color/darkest_blue"
-            style="@style/MontserratRegular"
+            style="@style/GothamRegular"
             />
 
         <net.paccoin.wallet.ui.widget.MontserratCheckBox

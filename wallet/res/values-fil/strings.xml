@@ -233,8 +233,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 decimal places</string>
     <string name="preferences_precision_labels_6">$PAC, 6 decimal places</string>
     <string name="preferences_precision_labels_4">$PAC, 4 decimal places</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 decimal places</string>
-    <string name="preferences_precision_labels_0_6">µDASH, walang decimal places</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 decimal places</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, walang decimal places</string>
     <string name="preferences_own_name_title">Sariling pangalan</string>
     <string name="preferences_own_name_summary">Pangalan ng iyong sarili, ito ay idadagdag sa mga hiniling na bayad. Subukan itong paikliin lang.</string>
     <string name="preferences_send_coins_autoclose_title">Auto-close na pag-send ng coins dialog</string>

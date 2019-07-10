@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            style="@style/MontserratMedium.DB.12"
+            style="@style/GothamMedium.DB.12"
             tools:text="August 30, 11:28 AM"
             />
 
@@ -87,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                style="@style/MontserratMedium.MG.12"
+                style="@style/GothamMedium.MG.12"
                 tools:text="XcJcu9C2y1MMuNjgjnyqfYCnPoK94D18oL"
                 />
             
@@ -95,7 +95,7 @@
 
         <org.dash.wallet.common.ui.CurrencyTextView
             android:id="@+id/transaction_row_value"
-            style="@style/MontserratSemiBold.B.14"
+            style="@style/GothamSemiBold.B.14"
             android:layout_toLeftOf="@id/transaction_row_menu"
             android:layout_toStartOf="@id/transaction_row_menu"
             android:layout_width="wrap_content"
@@ -109,7 +109,7 @@
             android:layout_toStartOf="@id/transaction_row_menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/MontserratMedium.MG.12"
+            style="@style/GothamMedium.MG.12"
             />
 
         <ImageView
@@ -144,7 +144,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/transaction_row_fee"
-                    style="@style/MontserratMedium.MG.12"
+                    style="@style/GothamMedium.MG.12"
                     />
 
 
@@ -154,7 +154,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    style="@style/MontserratMedium.MG.12"
+                    style="@style/GothamMedium.MG.12"
                     />
 
             </RelativeLayout>
@@ -172,7 +172,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/transaction_row_message_sent_to_single_peer"
-                    style="@style/MontserratMedium.MG.12"
+                    style="@style/GothamMedium.MG.12"
                     />
 
             </RelativeLayout>

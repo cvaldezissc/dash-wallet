@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/or_unlock_with_fingerprint"
                 android:gravity="center"
-                style="@style/MontserratMedium.DB.14"
+                style="@style/GothamMedium.DB.14"
                 />
 
         </LinearLayout>

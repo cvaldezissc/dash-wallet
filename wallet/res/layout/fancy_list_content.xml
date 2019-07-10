@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        style="@style/MontserratSemiBold.DB.14"
+        style="@style/GothamSemiBold.DB.14"
         />
 
 </FrameLayout>

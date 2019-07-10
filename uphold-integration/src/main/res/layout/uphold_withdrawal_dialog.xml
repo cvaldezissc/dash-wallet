@@ -36,7 +36,7 @@
                 android:layout_marginBottom="26dp"
                 android:includeFontPadding="false"
                 tools:text="1000 available"
-                style="@style/MontserratRegular.MG.14"/>
+                style="@style/GothamRegular.MG.14"/>
 
         </LinearLayout>
 
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:imeOptions="flagNoExtractUi"
                 android:textSize="16sp"
-                style="@style/MontserratRegular"
+                style="@style/GothamRegular"
                 tools:ignore="TextFields" />
 
         </org.dash.wallet.common.ui.CurrencyAmountView>

@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/list_entry_padding_vertical"
             android:text="@string/backup_wallet_dialog_message"
-            style="@style/MontserratRegular.DB.12"
+            style="@style/GothamRegular.DB.12"
             />
 
         <LinearLayout
@@ -40,7 +40,7 @@
                 android:singleLine="true"
                 android:layout_marginRight="-2dp"
                 android:layout_marginLeft="-2dp"
-                style="@style/MontserratSemiBold.DB.14"
+                style="@style/GothamSemiBold.DB.14"
                 />
 
             <TextView
@@ -48,7 +48,7 @@
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                style="@style/MontserratSemiBold"
+                style="@style/GothamSemiBold"
                 android:visibility="invisible"
                 />
 
@@ -73,7 +73,7 @@
                 android:singleLine="true"
                 android:layout_marginRight="-2dp"
                 android:layout_marginLeft="-2dp"
-                style="@style/MontserratSemiBold.DB.14"
+                style="@style/GothamSemiBold.DB.14"
                 />
 
             <TextView
@@ -83,7 +83,7 @@
                 android:layout_weight="2"
                 android:text="@string/backup_wallet_dialog_password_mismatch"
                 android:textColor="@color/fg_error"
-                style="@style/MontserratSemiBold"
+                style="@style/GothamSemiBold"
                 android:visibility="invisible"
                 />
         </LinearLayout>
@@ -104,7 +104,7 @@
             android:layout_height="wrap_content"
             android:text="@string/backup_wallet_dialog_warning_encrypted"
             android:textColor="@color/fg_less_significant"
-            style="@style/MontserratMedium.DB.12"
+            style="@style/GothamMedium.DB.12"
             />
 
     </LinearLayout>

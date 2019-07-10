@@ -48,7 +48,7 @@
 			android:layout_marginRight="44dp"
 			android:gravity="center"
 			tools:text="@string/request_coins_fragment_initiate_request_qr"
-			style="@style/MontserratMedium.DB.14"
+			style="@style/GothamMedium.DB.14"
 			/>
 
 	</LinearLayout>

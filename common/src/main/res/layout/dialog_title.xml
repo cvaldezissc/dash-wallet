@@ -8,5 +8,5 @@
     android:paddingLeft="24dp"
     android:paddingRight="24dp"
     android:paddingTop="24dp"
-    style="@style/MontserratSemiBold"
+    style="@style/GothamSemiBold"
     />

@@ -14,7 +14,7 @@
         android:hint="@string/sweep_wallet_fragment_password"
         android:inputType="textPassword"
         android:singleLine="true"
-        style="@style/MontserratMedium.DB.14"
+        style="@style/GothamMedium.DB.14"
         />
 
     <TextView
@@ -26,7 +26,7 @@
         android:textColor="@color/fg_error"
         android:visibility="gone"
         android:textSize="12sp"
-        style="@style/MontserratSemiBold"
+        style="@style/GothamSemiBold"
         />
 
 </LinearLayout>

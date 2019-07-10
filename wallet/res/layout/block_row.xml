@@ -23,7 +23,7 @@
         android:text="@string/block_row_mining_reward_adjustment"
         android:textColor="@color/fg_less_significant"
         android:textSize="@dimen/font_size_small"
-        style="@style/MontserratMedium"
+        style="@style/GothamMedium"
         />
 
     <TextView
@@ -39,7 +39,7 @@
         android:text="@string/block_row_mining_difficulty_adjustment"
         android:textColor="@color/fg_less_significant"
         android:textSize="@dimen/font_size_small"
-        style="@style/MontserratMedium"
+        style="@style/GothamMedium"
         />
 
     <RelativeLayout
@@ -68,7 +68,7 @@
             android:id="@+id/block_list_row_height"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/MontserratSemiBold.DB.14"
+            style="@style/GothamSemiBold.DB.14"
             android:layout_marginBottom="14dp"
             tools:text="935940"
             />
@@ -79,7 +79,7 @@
             android:layout_toLeftOf="@id/block_list_row_menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/MontserratMedium.MG.14"
+            style="@style/GothamMedium.MG.14"
             tools:text="just now"
             />
 
@@ -89,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="000000000000002c07adc34df3becd45bdb4417a52485f9e2920ae192ea8a6f7"
-            style="@style/MontserratMedium.MG.14"
+            style="@style/GothamMedium.MG.14"
             />
 
         <LinearLayout

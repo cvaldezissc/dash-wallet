@@ -157,7 +157,7 @@ android {
             applicationId = "hashengineering.dash.wallet.beta"
         }
         prod {
-            applicationId = "paccommunity.pac.wallet"
+            applicationId = "net.paccoin.pacofficialwallet"
         }
         _testNet3 {
             applicationId = "hashengineering.darkcoin.wallet_test"

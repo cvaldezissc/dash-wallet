@@ -8,7 +8,7 @@
 
 	<Button
 		android:id="@+id/send_coins_go"
-		style="@style/MontserratButton"
+		style="@style/GothamButton"
 		android:layout_alignParentBottom="true"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
 				android:layout_marginLeft="3dp"
 				android:layout_marginStart="3dp"
 				android:text="@string/send_coins_fragment_receiving_address_label"
-				style="@style/MontserratSemiBold.DB.14"
+				style="@style/GothamSemiBold.DB.14"
 				/>
 
 			<TextView
@@ -50,7 +50,7 @@
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:layout_marginTop="8dp"
-				style="@style/MontserratRegular.DB.12"
+				style="@style/GothamRegular.DB.12"
 				android:singleLine="true"
 				/>
 
@@ -93,7 +93,7 @@
 						android:maxLines="3"
 						android:singleLine="false"
                         android:text="@string/address_unlabeled"
-						style="@style/MontserratSemiBold.MG.14"
+						style="@style/GothamSemiBold.MG.14"
 						/>
 
 					<TextView
@@ -101,7 +101,7 @@
 						android:layout_width="0dp"
 						android:layout_weight="1"
 						android:layout_height="wrap_content"
-						style="@style/MontserratMedium.MG.14"
+						style="@style/GothamMedium.MG.14"
 						/>
 
 				</LinearLayout>
@@ -117,7 +117,7 @@
 				android:hint="@string/send_coins_fragment_receiving_address_hint"
 				android:imeOptions="flagNoExtractUi"
 				android:singleLine="true"
-				style="@style/MontserratMedium"
+				style="@style/GothamMedium"
 				/>
 
 			<TextView
@@ -128,7 +128,7 @@
 				android:text="@string/send_coins_fragment_amount_label"
 				android:layout_marginLeft="3dp"
 				android:layout_marginStart="3dp"
-				style="@style/MontserratSemiBold.DB.14"
+				style="@style/GothamSemiBold.DB.14"
 				/>
 
 			<LinearLayout
@@ -151,7 +151,7 @@
 						android:layout_height="wrap_content"
 						android:imeOptions="flagNoExtractUi"
 						android:textSize="16sp"
-						style="@style/MontserratRegular"
+						style="@style/GothamRegular"
 						tools:ignore="TextFields"
 						/>
 
@@ -171,7 +171,7 @@
 						android:layout_height="wrap_content"
 						android:imeOptions="flagNoExtractUi"
 						android:textSize="16sp"
-						style="@style/MontserratRegular"
+						style="@style/GothamRegular"
 						tools:ignore="TextFields"
 						/>
 
@@ -183,7 +183,7 @@
 				android:id="@+id/send_coins_hint"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				style="@style/MontserratRegular.DB.12"
+				style="@style/GothamRegular.DB.12"
 				android:textSize="@dimen/font_size_small"
 				/>
 
@@ -195,7 +195,7 @@
 				android:text="@string/send_coins_fragment_pin_label"
 				android:layout_marginLeft="3dp"
 				android:layout_marginStart="3dp"
-				style="@style/MontserratSemiBold.DB.14"
+				style="@style/GothamSemiBold.DB.14"
 				/>
 
 			<RelativeLayout
@@ -218,7 +218,7 @@
 					android:id="@+id/send_coins_private_key_password"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
-					style="@style/MontserratMedium"
+					style="@style/GothamMedium"
 					android:textSize="14sp"
 					android:hint="@string/private_key_password"
 					android:imeOptions="flagNoExtractUi"
@@ -236,7 +236,7 @@
 				android:layout_marginStart="3dp"
 				android:text="@string/private_key_bad_password"
 				android:textColor="@color/fg_error"
-				style="@style/MontserratSemiBold"
+				style="@style/GothamSemiBold"
 				android:textSize="12sp"
 				tools:visibility="visible"
 				android:visibility="invisible"
@@ -251,7 +251,7 @@
 				android:layout_marginLeft="3dp"
 				android:layout_marginStart="3dp"
 				android:textColor="@color/fg_error"
-				style="@style/MontserratSemiBold"
+				style="@style/GothamSemiBold"
 				android:textSize="12sp"
 				android:visibility="gone"
 				/>
@@ -271,7 +271,7 @@
 
 				<TextView
 					android:id="@+id/send_coins_instant_send_info"
-					style="@style/MontserratRegular"
+					style="@style/GothamRegular"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_gravity="fill"
@@ -307,7 +307,7 @@
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
 					android:layout_marginBottom="@dimen/list_entry_padding_vertical"
-					style="@style/MontserratRegular.DB.12"
+					style="@style/GothamRegular.DB.12"
 					tools:text="Directly payment message"
 					tools:visibilty="visible"
 					android:visibility="gone"

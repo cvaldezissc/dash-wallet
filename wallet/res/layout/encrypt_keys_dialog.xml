@@ -12,7 +12,7 @@
         android:layout_marginTop="@dimen/list_entry_padding_vertical"
         android:text="@string/encrypt_keys_dialog_message"
         android:layout_marginBottom="@dimen/space_medium"
-        style="@style/MontserratRegular.DB.12"
+        style="@style/GothamRegular.DB.12"
         />
 
     <LinearLayout
@@ -33,7 +33,7 @@
             android:imeOptions="flagNoExtractUi"
             android:inputType="numberPassword"
             android:singleLine="true"
-            style="@style/MontserratMedium.DB.14"
+            style="@style/GothamMedium.DB.14"
             />
 
         <TextView
@@ -46,7 +46,7 @@
             android:textColor="@color/fg_error"
             android:visibility="invisible"
             android:textSize="@dimen/dialog_label_text_size"
-            style="@style/MontserratSemiBold"
+            style="@style/GothamSemiBold"
             />
 
     </LinearLayout>
@@ -69,7 +69,7 @@
             android:imeOptions="flagNoExtractUi"
             android:inputType="numberPassword"
             android:singleLine="true"
-            style="@style/MontserratMedium.DB.14"
+            style="@style/GothamMedium.DB.14"
             />
 
         <TextView
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="@dimen/dialog_label_text_size"
-            style="@style/MontserratSemiBold"
+            style="@style/GothamSemiBold"
             />
 
     </LinearLayout>
@@ -104,7 +104,7 @@
         android:textColor="@color/fg_error"
         android:visibility="gone"
         android:textSize="@dimen/dialog_label_text_size"
-        style="@style/MontserratSemiBold"
+        style="@style/GothamSemiBold"
         />
 
     <TextView
@@ -113,7 +113,7 @@
         android:layout_marginBottom="@dimen/list_entry_padding"
         android:layout_marginTop="@dimen/list_entry_padding"
         android:text="@string/encrypt_keys_dialog_warning"
-        style="@style/MontserratMedium.MG.12"
+        style="@style/GothamMedium.MG.12"
         />
 
     <net.paccoin.wallet.ui.widget.FingerprintView

@@ -42,6 +42,8 @@ import com.google.protobuf.ByteString;
 
 import net.paccoin.wallet.integration.android.BitcoinIntegration;
 
+import de.schildbach.wallet.integration.sample.R;
+
 /**
  * @author Andreas Schildbach
  */

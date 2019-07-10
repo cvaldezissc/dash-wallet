@@ -65,12 +65,12 @@ public final class Constants {
         switch (BuildConfig.FLAVOR) {
             case "prod":
             case "beta": {
-                DNS_SEED = new String[]{"dnsseed.dash.org"};
+                DNS_SEED = new String[]{"dns-seeder-next.paccoin.io"};
                 BIP44_PATH = DeterministicKeyChain.BIP44_ACCOUNT_ZERO_PATH;
                 NETWORK_PARAMETERS = MainNetParams.get();
                 IS_PROD_BUILD = true;
                 FILENAME_NETWORK_SUFFIX = "";
-                WALLET_NAME_CURRENCY_CODE = "dash";
+                WALLET_NAME_CURRENCY_CODE = "$PAC";
                 break;
             }
             case "_testNet3": {
@@ -237,8 +237,8 @@ public final class Constants {
     public static final int NOTIFICATION_ID_BLOCKCHAIN_SYNC = 3;
     public static final int NOTIFICATION_ID_UPGRADE_WALLET = 4;
 
-    public static String NOTIFICATION_CHANNEL_ID_TRANSACTIONS = "dash.notifications.transactions";
-    public static String NOTIFICATION_CHANNEL_ID_ONGOING = "dash.notifications.ongoing";
+    public static String NOTIFICATION_CHANNEL_ID_TRANSACTIONS = "pac.notifications.transactions";
+    public static String NOTIFICATION_CHANNEL_ID_ONGOING = "pac.notifications.ongoing";
 
     /** Desired number of scrypt iterations for deriving the spending PIN */
     public static final int SCRYPT_ITERATIONS_TARGET = 65536;
@@ -275,7 +275,7 @@ public final class Constants {
     //$PAC Specific
     public static long EARLIEST_HD_SEED_CREATION_TIME = 1427610960l;
 
-    public static String WALLET_URI_SCHEME = "dashwallet";
+    public static String WALLET_URI_SCHEME = "pacwallet";
 
     public static boolean ENABLE_ZERO_FEES = false; //Enable Zero Fee's on TestNet only.
 

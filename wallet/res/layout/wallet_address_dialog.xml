@@ -35,7 +35,7 @@
             android:layout_marginBottom="@dimen/list_entry_padding"
             android:layout_marginTop="@dimen/list_entry_padding"
             android:gravity="left"
-            style="@style/MontserratMedium.DB"
+            style="@style/GothamMedium.DB"
             android:textSize="@dimen/font_size_normal"
             />
 
@@ -49,7 +49,7 @@
             android:paddingRight="@dimen/list_entry_padding_horizontal"
             android:text="@string/wallet_address_dialog_fragment_hint"
             android:textColor="@color/fg_less_significant"
-            style="@style/MontserratRegular.DB.12"
+            style="@style/GothamRegular.DB.12"
             />
 
     </LinearLayout>

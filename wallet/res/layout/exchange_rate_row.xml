@@ -37,7 +37,7 @@
         android:layout_marginRight="50dp"
         android:layout_marginEnd="50dp"
         android:singleLine="true"
-        style="@style/MontserratSemiBold.DB.14"
+        style="@style/GothamSemiBold.DB.14"
         tools:text="USD"
         />
 
@@ -51,7 +51,7 @@
         android:layout_toRightOf="@id/exchange_rate_row_currency_code"
         android:layout_toEndOf="@id/exchange_rate_row_currency_code"
         android:text="@string/exchange_rates_fragment_rate"
-        style="@style/MontserratMedium.DB.12"
+        style="@style/GothamMedium.DB.12"
         />
 
     <TextView
@@ -63,7 +63,7 @@
         android:layout_alignStart="@id/exchange_rate_label"
         android:layout_below="@id/exchange_rate_label"
         android:textColor="@color/fg_less_significant"
-        style="@style/MontserratMedium.MG.12"
+        style="@style/GothamMedium.MG.12"
         />
 
     <org.dash.wallet.common.ui.CurrencyTextView
@@ -74,7 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right|end"
-        style="@style/MontserratSemiBold.DB.12"
+        style="@style/GothamSemiBold.DB.12"
         />
 
     <org.dash.wallet.common.ui.CurrencyTextView
@@ -86,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right|end"
         android:textColor="@color/fg_less_significant"
-        style="@style/MontserratMedium.MG.12"
+        style="@style/GothamMedium.MG.12"
         />
 
 </RelativeLayout>

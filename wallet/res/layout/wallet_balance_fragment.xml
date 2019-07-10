@@ -31,7 +31,7 @@
             android:textColor="@color/fg_value_black"
             android:textSize="@dimen/font_size_tiny"
             android:visibility="gone"
-            style="@style/MontserratMedium"
+            style="@style/GothamMedium"
             />
 
         <org.dash.wallet.common.ui.CurrencyTextView

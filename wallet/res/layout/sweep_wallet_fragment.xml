@@ -22,7 +22,7 @@
             android:gravity="center"
             android:layout_marginBottom="16dp"
             android:text="@string/sweep_wallet_fragment_wallet_unknown"
-            style="@style/MontserratSemiBold.DB.14"
+            style="@style/GothamSemiBold.DB.14"
             />
 
         <TextView
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/sweep_wallet_fragment_intro"
-            style="@style/MontserratMedium.MG.14"
+            style="@style/GothamMedium.MG.14"
             />
 
     </LinearLayout>
@@ -52,7 +52,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/MontserratMedium.MG"
+                style="@style/GothamMedium.MG"
                 android:textSize="16sp"
                 android:layout_marginBottom="8dp"
                 android:text="@string/sweep_wallet_fragment_balance"
@@ -82,7 +82,7 @@
                     android:textSize="26sp"
                     tools:text="0.00"
                     android:includeFontPadding="false"
-                    style="@style/MontserratRegular.DB"
+                    style="@style/GothamRegular.DB"
                     />
 
             </LinearLayout>
@@ -112,7 +112,7 @@
 
     <Button
         android:id="@+id/send_coins_go"
-        style="@style/MontserratButton"
+        style="@style/GothamButton"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

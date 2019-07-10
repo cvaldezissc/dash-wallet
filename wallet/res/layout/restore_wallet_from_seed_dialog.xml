@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/list_entry_padding_vertical"
-            style="@style/MontserratRegular.DB.12"
+            style="@style/GothamRegular.DB.12"
             />
 
         <EditText
@@ -30,7 +30,7 @@
             android:hint="@string/import_export_keys_dialog_password_phrase"
             android:layout_marginRight="-2dp"
             android:layout_marginLeft="-2dp"
-            style="@style/MontserratSemiBold.DB.14"
+            style="@style/GothamSemiBold.DB.14"
             />
 
         <TextView
@@ -40,7 +40,7 @@
             android:text="@string/restore_wallet_from_invalid_seed_warning_message"
             android:textColor="@color/fg_error"
             android:textSize="12sp"
-            style="@style/MontserratRegular"
+            style="@style/GothamRegular"
             android:visibility="gone"
             />
 
@@ -51,7 +51,7 @@
             android:text="@string/restore_wallet_dialog_replace_warning"
             android:textColor="@color/fg_less_significant"
             android:layout_marginTop="@dimen/space_medium"
-            style="@style/MontserratMedium.DB.14"
+            style="@style/GothamMedium.DB.14"
             />
 
         <TextView
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/fg_less_significant"
             android:layout_marginTop="@dimen/space_medium"
-            style="@style/MontserratMedium.DB.14"
+            style="@style/GothamMedium.DB.14"
             />
 
     </LinearLayout>
