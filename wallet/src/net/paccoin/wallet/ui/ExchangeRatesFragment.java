@@ -422,7 +422,7 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
             holder.menuView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(final View v) {
-                    Context wrapper = new ContextThemeWrapper(activity, R.style.My_PopupOverlay);
+                    Context wrapper = new ContextThemeWrapper(activity, R.style.OptionMenuItemStyle);
                     final PopupMenu popupMenu = new PopupMenu(wrapper, v);
                     popupMenu.inflate(R.menu.exchange_rates_context);
                     popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {

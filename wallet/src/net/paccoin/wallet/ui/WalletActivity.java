@@ -49,7 +49,6 @@ import android.support.v7.widget.Toolbar;
 import android.telephony.TelephonyManager;
 import android.text.format.DateUtils;
 import android.view.ContextMenu;
-import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -273,7 +272,6 @@ public final class WalletActivity extends AbstractBindServiceActivity
                 super.onDrawerOpened(drawerView);
                 final Resources res = getResources();
                 Menu menu = navigationView.getMenu();
-                //menu.findItem(R.id.nav_exchenge_rates).setEnabled(res.getBoolean(R.bool.show_exchange_rates_option));
             }
         };
 
@@ -408,17 +406,12 @@ public final class WalletActivity extends AbstractBindServiceActivity
     public boolean onCreateOptionsMenu(final Menu menu) {
         menu.clear();
 
-        getMenuInflater().inflate(R.menu.wallet_options, menu);
+        getMenuInflater().inflate(R.menu.wallet_menu_options, menu);
 
 
+        //Shows or not the lock icon in the action bar
         MenuItem walletLockMenuItem = menu.findItem(R.id.wallet_options_lock);
         walletLockMenuItem.setVisible(WalletLock.getInstance().isWalletLocked(wallet));
-
-
-
-
-
-
 
 
 

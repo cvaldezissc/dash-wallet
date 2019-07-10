@@ -8,9 +8,12 @@
     android:layout_height="?attr/actionBarSize"
     app:contentInsetStartWithNavigation="0dp"
     app:contentInsetEndWithActions="0dp"
-    app:popupTheme="@style/My.PopupOverlay"
-    android:theme="@style/threeDotsTheme"
+
     >
+    <!--app:popupTheme="@style/OptionMenuItemStyle"-->
+
+    <!--android:theme="@style/threeDotsTheme"-->
+
 
     <RelativeLayout
         android:layout_width="match_parent"

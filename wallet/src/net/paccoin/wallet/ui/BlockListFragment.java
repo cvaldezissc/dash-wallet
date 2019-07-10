@@ -169,8 +169,10 @@ public final class BlockListFragment extends Fragment implements BlockListAdapte
 
 	@Override
     public void onBlockMenuClick(final View view, final StoredBlock block) {
-		Context wrapper = new ContextThemeWrapper(activity, R.style.My_PopupOverlay);
+		Context wrapper = new ContextThemeWrapper(activity, R.style.OptionMenuItemStyle);
 		final PopupMenu popupMenu = new PopupMenu(wrapper, view);
+
+
 		popupMenu.inflate(R.menu.blocks_context);
 
         popupMenu.setOnMenuItemClickListener(new OnMenuItemClickListener() {

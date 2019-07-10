@@ -353,7 +353,7 @@ public class WalletTransactionsFragment extends Fragment implements LoaderManage
         final byte[] txSerialized = tx.unsafeBitcoinSerialize();
         final boolean txRotation = tx.getPurpose() == Purpose.KEY_ROTATION;
 
-        Context wrapper = new ContextThemeWrapper(activity, R.style.My_PopupOverlay);
+        Context wrapper = new ContextThemeWrapper(activity, R.style.OptionMenuItemStyle);
         final PopupMenu popupMenu = new PopupMenu(wrapper, view);
         popupMenu.inflate(R.menu.wallet_transactions_context);
         final MenuItem editAddressMenuItem = popupMenu.getMenu()
