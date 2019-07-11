@@ -7,5 +7,5 @@ However if you've got a question or would like to start a discussion, please pos
 [G+ community](https://plus.google.com/communities/105515929887248493912).
 
 If you would like to contribute language translations, we prefer if you use our
-[Transifex project](https://www.transifex.com/dash/dash-wallet/). Languages will be
+[Transifex project](https://www.transifex.com/PacCommunity/pac-wallet-android-v2/). Languages will be
 synced from there regularly.

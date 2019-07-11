@@ -7,7 +7,8 @@
     android:orientation="horizontal"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:paddingTop="25dp">
+    android:paddingTop="25dp"
+    >
 
     <FrameLayout
         android:layout_width="0px"
@@ -15,19 +16,22 @@
         android:layout_weight="1"
         android:foregroundGravity="right|fill_vertical"
         android:layout_marginRight="16dp"
-        android:layout_marginEnd="16dp">
+        android:layout_marginEnd="16dp"
+        >
 
         <include
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            layout="@layout/request_coins_form_include"/>
+            layout="@layout/request_coins_form_include"
+            />
 
     </FrameLayout>
 
     <LinearLayout
         android:layout_width="@dimen/request_coins_qr_size"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
         <ImageView
             android:id="@+id/request_coins_qr"
@@ -36,7 +40,8 @@
             android:layout_gravity="center"
             android:contentDescription="@string/action_show_qr"
             android:layout_marginBottom="20dp"
-            android:scaleType="fitXY" />
+            android:scaleType="fitXY"
+            />
 
         <TextView
             android:id="@+id/request_coins_fragment_initiate_request"
@@ -44,7 +49,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             tools:text="@string/request_coins_fragment_initiate_request_qr"
-            style="@style/MontserratMedium.DB.14"/>
+            style="@style/GothamMedium.DB.14"
+            />
 
     </LinearLayout>
 

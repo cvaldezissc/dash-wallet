@@ -16,21 +16,21 @@
 	<string name="export_keys_dialog_title_to_seed">Visualizza la frase di recupero</string>
 	<string name="import_keys_dialog_title_from_seed">Ripristina con la frase di recupero</string>
 	<string name="backup_to_seed_wallet_dialog_message">Questa è la tua frase di recupero. Si prega di trascriverla.</string>
-	<string name="backup_wallet_to_seed_dialog_warning">NON lasciare che qualcuno veda la tua frase di recupero o avranno la possibilità di spendere i tuoi Dash.</string>
+	<string name="backup_wallet_to_seed_dialog_warning">NON lasciare che qualcuno veda la tua frase di recupero o avranno la possibilità di spendere i tuoi $PAC.</string>
 	<string name="backup_to_seed_wallet_dialog_enter_pin_message">Il tuo portafoglio è protetto da un PIN. Digita il tuo PIN e clicca \"Mostra\" per visualizzare la tua frase di recupero.</string>
     <string name="import_keys_from_seed_dialog_message">Digita qui la tua frase di recupero.</string>
 	<string name="import_export_keys_dialog_password_phrase">La frase di recupero va qui.</string>
 	<string name="preferences_report_issue_summary">Raccogli informazioni sul tuo problema e invia tramite email la tua segnalazione agli sviluppatori.</string>
 	<string name="navigation_configuration">Configurazione</string>
     <string name="button_copy_address">Copia indirizzo</string>
-	<string name="request_coins_clipboard_address_msg">Indirizzo Dash copiato negli appunti</string>
+	<string name="request_coins_clipboard_address_msg">Indirizzo $PAC copiato negli appunti</string>
 	<string name="backup_wallet_to_seed_show_recovery_phrase">Mostra</string>
 	<string name="restore_wallet_from_invalid_seed_warning_message">%s parola non valida.</string>
 
 	<string name="send_coins_options_fee_category_zero">Senza Costi</string>
 	<string name="send_coins_fragment_hint_fee_zero">Nessun costo verrà addebitato. Usa \"Senza Costi\" soltanto se non hai bisogno di un tempo di conferma rapido.</string>
 
-	<string name="wallet_uri_handler_public_key_request_dialog_msg">L\'applicazione %s vorrebbe ricevere la tua Master Public Key. Questa può essere utilizzata per tenere traccia del tuo portafoglio; non può essere utilizzata per spostare i tuoi Dash.</string>
+	<string name="wallet_uri_handler_public_key_request_dialog_msg">L\'applicazione %s vorrebbe ricevere la tua Master Public Key. Questa può essere utilizzata per tenere traccia del tuo portafoglio; non può essere utilizzata per spostare i tuoi $PAC.</string>
 	<string name="wallet_uri_handler_address_request_dialog_msg">L\'applicazione %s richiede un idirizzo cosi\' che tu possa ricevere pagamenti. Vuoi autorizzarla?</string>
 
 	<string name="wallet_lock_unlock">Sblocca</string>
@@ -40,7 +40,7 @@
 	<string name="wallet_lock_unlock_dialog_title">Sblocca il tuo portafoglio </string>
 	<string name="wallet_lock_unlock_dialog_message">Il tuo portafoglio è protetto da un PIN. Digita il tuo PIN e clicca \"Sblocca\" per continuare.</string>
 	<string name="wallet_lock_reset_wallet_title">Resetta portafoglio</string>
-	<string name="wallet_lock_reset_wallet_message">Sei sicuro? Il tuo portafoglio verrà eliminato e tutti i tuoi Dash andranno persi.\n\nL\'unico modo per recuperare i tuoi Dash è con un file di backup o una frase di recupero.</string>
+	<string name="wallet_lock_reset_wallet_message">Sei sicuro? Il tuo portafoglio verrà eliminato e tutti i tuoi $PAC andranno persi.\n\nL\'unico modo per recuperare i tuoi $PAC è con un file di backup o una frase di recupero.</string>
 
 	<string name="wallet_lock_wallet_disabled">Portafoglio disabilitato</string>
 	<string name="wallet_lock_try_again">Riprova ancora in %1$d %2$s</string>
@@ -82,7 +82,7 @@
 	<string name="notification_synchronization_channel_description">Notifica quando la \"app\" è sincronizzata con la rete.</string>
 
 	<string name="fastest_payment_network_dialog_title">I tuoi Soldi , In qualsiasi modo</string>
-	<string name="fastest_payment_network_dialog_message">Invia e ricevi Dash istantaneamente senza costi aggiuntivi</string>
+	<string name="fastest_payment_network_dialog_message">Invia e ricevi $PAC istantaneamente senza costi aggiuntivi</string>
 	<string name="fastest_payment_network_dialog_button">Fatto</string>
 
 	<string name="unlock_with_fingerprint">Usa la tua impronta digitale per sbloccare.</string>

@@ -5,10 +5,11 @@
     <item
         android:gravity="bottom|right"
         android:height="9dp"
-        android:width="9dp">
-        <shape android:shape="oval" >
-            <solid android:color="@color/fg_value_negative" />
-        </shape>
+        android:width="9dp"
+        >
+            <shape android:shape="oval" >
+                <solid android:color="@color/fg_value_negative" />
+            </shape>
     </item>
 
 </layer-list>

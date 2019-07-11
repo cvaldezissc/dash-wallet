@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <TextView
         android:id="@+id/transaction_row_warning_message"
@@ -14,7 +16,8 @@
         android:paddingLeft="@dimen/space_medium"
         android:paddingRight="@dimen/space_medium"
         android:paddingTop="@dimen/list_entry_padding"
-        style="@style/MontserratMedium.MG.12" />
+        style="@style/GothamMedium.MG.12"
+        />
 
     <View style="@style/ListSeparator" />
 

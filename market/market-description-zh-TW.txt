@@ -5,9 +5,9 @@
 <b>產品特點</b>
 
 • 不需要註冊，網頁服務或雲端服務! 這個錢包是採用去中心化點對點技術。
-• 以DASH，mDASH，或μDASH顯示達世幣金額。
+• 以$PAC，m$PAC，或μ$PAC顯示達世幣金額。
 • 以國家貨幣顯示幣值。
-• 通過NFC，QR碼或Dash URL發送和接收達世幣。
+• 通過NFC，QR碼或$PAC URL發送和接收達世幣。
 • 地址簿中經常使用的達世幣位址。
 • 當你離線時，你仍然可以通過藍牙付款。
 • 收到款項後會顯示系統通知。
@@ -21,16 +21,16 @@
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 我們的源代碼在GitHub上提供:
-https://github.com/HashEngineering/dash-wallet
+https://github.com/PacCommunity/pac-wallet-android-v2/
 
 所有翻譯均通過Transifex進行管理:
-https://www.transifex.com/dash/dash-wallet/
+https://www.transifex.com/PacCommunity/pac-wallet-android-v2/
 
 你可以找到更多關於達世幣的信息
-https://www.dash.org/
+https://www.paccoin.net/
 
 <b>用戶評價</b>
 
-• 推薦的手機錢包 https://www.dash.org
+• 推薦的手機錢包 https://www.paccoin.net
 
 <i>用者風險自負!</i>

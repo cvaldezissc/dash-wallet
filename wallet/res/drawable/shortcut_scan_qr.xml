@@ -6,6 +6,7 @@
         android:left="@dimen/shortcut_padding"
         android:right="@dimen/shortcut_padding"
         android:top="@dimen/shortcut_padding">
+
         <shape android:shape="oval" >
             <size
                 android:height="@dimen/shortcut_size"
@@ -14,10 +15,12 @@
             <solid android:color="@color/bg_shortcut" />
         </shape>
     </item>
+
     <item
         android:drawable="@drawable/ic_qrcode"
         android:gravity="center"
         android:height="@dimen/shortcut_icon_size"
-        android:width="@dimen/shortcut_icon_size"/>
+        android:width="@dimen/shortcut_icon_size"
+        />
 
 </layer-list>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/appbar"
@@ -7,23 +8,27 @@
     android:layout_height="wrap_content"
     android:background="@android:color/transparent"
     android:theme="@style/My.AppBarOverlay"
-    app:elevation="0dp">
+    app:elevation="0dp"
+    >
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/My.PopupOverlay">
+        app:popupTheme="@style/OptionMenuItemStyle"
+        >
+
+        <!--android:theme="@style/MyTheme.ActionBarStyle"-->
 
         <fragment
             android:id="@+id/wallet_balance_fragment_toolbar"
-            android:name="de.schildbach.wallet.ui.WalletBalanceToolbarFragment"
+            android:name="net.paccoin.wallet.ui.WalletBalanceToolbarFragment"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical|right"
-            tools:layout="@layout/wallet_balance_toolbar_fragment" />
+            tools:layout="@layout/wallet_balance_toolbar_fragment"
+            />
 
     </android.support.v7.widget.Toolbar>
 
@@ -40,9 +45,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Synchronizing with network. 3 months behind."
-            android:textColor="@color/white"
+            android:textColor="@color/fg_value_black"
             app:fontFamily="@font/montserrat_regular"
-            android:textSize="12sp" />
+            android:textSize="12sp"
+            />
 
     </RelativeLayout>
 

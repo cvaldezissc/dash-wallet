@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="colorPrimary">#FF008DE4</color>
-    <color name="colorPrimaryDark">#FF012060</color>
+    <color name="colorPrimary">#fef000</color>
+    <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#666666</color>
 
-    <color name="strong_blue">#1c75bc</color>
-    <color name="strong_blue_bis">#295290</color>
-    <color name="dark_blue">#1e487c</color>
-    <color name="darkest_blue">#FF111921</color>
+    <color name="strong_blue">#414141</color>
+    <color name="strong_blue_bis">#727373</color>
+    <color name="dark_blue">#9b9c9c</color>
+    <color name="darkest_blue">#000000</color>
     <color name="vivid_red">#ec2227</color>
     <color name="white">#ffffff</color>
     <color name="menu_gray">#FFC9C9C9</color>
     <color name="gray">#FF979797</color>
     <color name="medium_gray">#FF787878</color>
-    <color name="ripple_light">#40ffffff</color>
+    <color name="ripple_light">#000000</color>
 
     <!-- foreground -->
-    <color name="fg_significant">#66000000</color>
+    <color name="fg_significant">#000000</color>
     <color name="fg_less_significant">#ff666666</color>
     <color name="fg_insignificant">#ffbbbbbb</color>
     <color name="fg_value_positive">@color/colorPrimaryDark</color>
+    <color name="fg_value_black">#000000</color>
     <color name="fg_value_negative">@color/colorPrimary</color>
     <color name="fg_error">#ffff0000</color>
     <color name="fg_network_significant">#ffffffff</color>
@@ -36,6 +37,8 @@
     <color name="bg_list">#40ffffff</color>
     <color name="bg_list_selected">#40808090</color>
     <color name="bg_dialog_title">@android:color/transparent</color>
-    <color name="bg_shortcut">@color/colorPrimary</color>
+    <color name="bg_shortcut">#000000</color>
+
+
 
 </resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/wallet_options_lock"
+        android:icon="@drawable/ic_menu_safety_white"
+        android:title="@string/wallet_lock_unlock_wallet"
+        android:visible="true"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        />
+
+    <item
+        android:id="@+id/wallet_options_request"
+        android:icon="@drawable/ic_send_flipped_white_24dp"
+        android:title="@string/request_coins_activity_title"
+        android:visible="@bool/wallet_actions_top"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        />
+
+    <item
+        android:id="@+id/wallet_options_send"
+        android:icon="@drawable/ic_send_white_24dp"
+        android:title="@string/send_coins_activity_title"
+        android:visible="@bool/wallet_actions_top"
+        app:showAsAction="never"
+        android:orderInCategory="3"
+        />
+
+    <item
+        android:id="@+id/wallet_options_report_issue"
+        android:title="@string/preferences_report_issue_title"
+        android:showAsAction="never"
+        android:orderInCategory="4"
+        />
+
+
+    <item
+        android:id="@+id/wallet_options_help"
+        android:orderInCategory="5"
+        android:title="@string/button_help"
+        android:showAsAction="never"
+
+        />
+
+
+</menu>

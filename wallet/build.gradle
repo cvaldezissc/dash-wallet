@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 ext {
-    archivesBaseName = 'dash-wallet'
+    archivesBaseName = 'pac-wallet'
     androidSupportVersion = '28.0.0'
 }
 repositories {
@@ -40,6 +40,10 @@ dependencies {
     implementation 'com.google.zxing:core:3.3.1'
     implementation 'com.squareup.okhttp:okhttp:2.7.5'
     implementation 'com.squareup.okhttp:logging-interceptor:2.7.5'
+    implementation 'com.google.code.gson:gson:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
     implementation 'com.squareup.moshi:moshi:1.5.0'
     implementation 'org.slf4j:slf4j-api:1.7.25'
     implementation('com.github.tony19:logback-android-classic:1.1.1-6') {
@@ -76,12 +80,19 @@ dependencies {
 
 
 ext {
-    archivesBaseName = 'dash-wallet'
+    archivesBaseName = 'pac-wallet'
 }
 
 android {
+    signingConfigs {
+        dashwallet {
+            storeFile file('/Users/carlos/Documents/github_public_repos/pacwallet_v2/android_utils/certificates/pacwallet.jks')
+            storePassword 'Pac2Th3M00n!$'
+            keyAlias = 'key0'
+            keyPassword 'Pac2Th3M00n!$keypass'
+        }
+    }
     compileSdkVersion 28
-    buildToolsVersion '28.0.2'
 
     lintOptions {
         abortOnError false
@@ -101,6 +112,7 @@ android {
                 cppFlags ""
             }
         }
+        applicationId = 'com.dashpay.wallet1'
     }
 
     buildTypes {
@@ -145,7 +157,7 @@ android {
             applicationId = "hashengineering.dash.wallet.beta"
         }
         prod {
-            applicationId = "hashengineering.darkcoin.wallet"
+            applicationId = "net.paccoin.pacofficialwallet"
         }
         _testNet3 {
             applicationId = "hashengineering.darkcoin.wallet_test"

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.schildbach.wallet_test"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.paccoin.wallet_test"
     android:installLocation="internalOnly"
-    android:versionCode="60430"
-    android:versionName="6.4.3">
+    android:versionCode="19071102"
+    android:versionName="2.0.1"
+    >
 
     <!-- normal permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -54,14 +56,16 @@
         android:xlargeScreens="true" />
 
     <application
-        android:name="de.schildbach.wallet.WalletApplication"
+        android:name="net.paccoin.wallet.WalletApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
+        android:supportsRtl="true"
         android:theme="@style/My.Theme">
         <activity
-            android:name="de.schildbach.wallet.ui.WalletActivity"
+            android:name="net.paccoin.wallet.ui.WalletActivity"
+            android:anyDensity="true"
             android:configChanges="keyboard|keyboardHidden"
             android:windowSoftInputMode="stateAlwaysHidden"
             android:exported="true"
@@ -70,8 +74,8 @@
             android:theme="@style/My.Theme.NoStatusBar" />
 
         <activity-alias
-            android:name="de.schildbach.wallet.WalletActivity"
-            android:targetActivity="de.schildbach.wallet.ui.WalletActivity" >
+            android:name="net.paccoin.wallet.WalletActivity"
+            android:targetActivity="net.paccoin.wallet.ui.WalletActivity" >
             <intent-filter android:label="@string/app_name_short" >
                 <action android:name="android.intent.action.MAIN" />
 
@@ -90,7 +94,7 @@
         </activity-alias>
 
         <activity
-            android:name="de.schildbach.wallet.ui.send.SendCoinsActivity"
+            android:name="net.paccoin.wallet.ui.send.SendCoinsActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/send_coins_activity_title"
             android:theme="@style/My.Theme.ChildActivity"
@@ -128,37 +132,37 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="de.schildbach.wallet.ui.SendCoinsQrActivity"
+            android:name="net.paccoin.wallet.ui.SendCoinsQrActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         </activity>
         <activity
-            android:name="de.schildbach.wallet.ui.RequestCoinsActivity"
+            android:name="net.paccoin.wallet.ui.RequestCoinsActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/request_coins_activity_title"
             android:theme="@style/My.Theme.ChildActivity"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="de.schildbach.wallet.ui.AddressBookActivity"
+            android:name="net.paccoin.wallet.ui.AddressBookActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/address_book_activity_title"
             android:theme="@style/My.Theme.ChildActivity" />
         <activity
-            android:name="de.schildbach.wallet.ui.ExchangeRatesActivity"
+            android:name="net.paccoin.wallet.ui.ExchangeRatesActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/exchange_rates_activity_title"
             android:theme="@style/My.Theme.ChildActivity" />
         <activity
-            android:name="de.schildbach.wallet.ui.NetworkMonitorActivity"
+            android:name="net.paccoin.wallet.ui.NetworkMonitorActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/network_monitor_activity_title"
             android:theme="@style/My.Theme.ChildActivity" />
         <activity
-            android:name="de.schildbach.wallet.ui.preference.PreferenceActivity"
+            android:name="net.paccoin.wallet.ui.preference.PreferenceActivity"
             android:label="@string/preferences_activity_title"
             android:theme="@style/My.Theme.ChildActivity" />
         <activity
-            android:name="de.schildbach.wallet.ui.RestoreWalletActivity"
+            android:name="net.paccoin.wallet.ui.RestoreWalletActivity"
             android:configChanges="orientation|keyboard|keyboardHidden"
             android:theme="@style/My.Theme.Dialog" >
             <intent-filter android:label="@string/import_keys_intent_filter_action" >
@@ -171,20 +175,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="de.schildbach.wallet.ui.ScanActivity"
+            android:name="net.paccoin.wallet.ui.ScanActivity"
             android:configChanges="orientation|keyboard|keyboardHidden"
             android:screenOrientation="landscape"
             android:stateNotNeeded="true"
             android:theme="@style/My.Theme.Fullscreen"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="de.schildbach.wallet.ui.send.SweepWalletActivity"
+            android:name="net.paccoin.wallet.ui.send.SweepWalletActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/sweep_wallet_activity_title"
             android:theme="@style/My.Theme.ChildActivity"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="de.schildbach.wallet.ui.WalletUriHandlerActivity"
+            android:name="net.paccoin.wallet.ui.WalletUriHandlerActivity"
             android:label="@string/app_name"
             android:theme="@style/My.Theme.Transparent" >
 
@@ -205,7 +209,7 @@
             android:theme="@style/My.Theme.ChildActivity"/>
 
         <provider
-            android:name="de.schildbach.wallet.data.AddressBookProvider"
+            android:name="net.paccoin.wallet.data.AddressBookProvider"
             android:authorities="${applicationId}.address_book"
             android:exported="false" />
         <provider
@@ -219,7 +223,7 @@
         </provider>
 
         <receiver
-            android:name="de.schildbach.wallet.WalletBalanceWidgetProvider"
+            android:name="net.paccoin.wallet.WalletBalanceWidgetProvider"
             android:label="@string/appwidget_wallet_balance_title" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -231,13 +235,13 @@
         </receiver>
 
         <service
-            android:name="de.schildbach.wallet.service.BlockchainServiceImpl"
+            android:name="net.paccoin.wallet.service.BlockchainServiceImpl"
             android:exported="false" />
         <service
-            android:name="de.schildbach.wallet.offline.AcceptBluetoothService"
+            android:name="net.paccoin.wallet.offline.AcceptBluetoothService"
             android:exported="false" />
 
-        <receiver android:name="de.schildbach.wallet.service.BootstrapReceiver" >
+        <receiver android:name="net.paccoin.wallet.service.BootstrapReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
@@ -247,10 +251,10 @@
         </receiver>
 
         <service
-            android:name="de.schildbach.wallet.service.UpgradeWalletService"
+            android:name="net.paccoin.wallet.service.UpgradeWalletService"
             android:exported="false" />
         <service
-            android:name="de.schildbach.wallet.service.InactivityNotificationService"
+            android:name="net.paccoin.wallet.service.InactivityNotificationService"
             android:exported="false" />
 
         <meta-data

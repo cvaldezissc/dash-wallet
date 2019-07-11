@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/wallet_address_dialog_group"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:padding="8dp"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    >
 
     <ImageView
         android:id="@+id/wallet_address_dialog_image"
@@ -14,14 +16,16 @@
         android:contentDescription="@null"
         android:keepScreenOn="true"
         android:padding="6dp"
-        android:scaleType="fitXY" />
+        android:scaleType="fitXY"
+        />
 
     <LinearLayout
         android:id="@+id/wallet_address_dialog_label_button"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        >
 
         <TextView
             android:id="@+id/wallet_address_dialog_label"
@@ -31,8 +35,9 @@
             android:layout_marginBottom="@dimen/list_entry_padding"
             android:layout_marginTop="@dimen/list_entry_padding"
             android:gravity="left"
-            style="@style/MontserratMedium.DB"
-            android:textSize="@dimen/font_size_normal" />
+            style="@style/GothamMedium.DB"
+            android:textSize="@dimen/font_size_normal"
+            />
 
         <TextView
             android:id="@+id/wallet_address_dialog_hint"
@@ -44,7 +49,8 @@
             android:paddingRight="@dimen/list_entry_padding_horizontal"
             android:text="@string/wallet_address_dialog_fragment_hint"
             android:textColor="@color/fg_less_significant"
-            style="@style/MontserratRegular.DB.12" />
+            style="@style/GothamRegular.DB.12"
+            />
 
     </LinearLayout>
 

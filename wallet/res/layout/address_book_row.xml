@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/bg_list"
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:orientation="vertical"
@@ -21,14 +22,14 @@
         android:textStyle="bold"
         android:layout_marginBottom="4dp"
         tools:text="(unlabeled)"
-        style="@style/MontserratRegular.DB.12"/>
+        style="@style/GothamRegular.DB.12"/>
 
     <TextView
         android:id="@+id/address_book_row_address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="XcJcu9C2y1MMuNjgjnyqfYCnPoK94D18oL"
-        style="@style/MontserratRegular.MG.12"/>
+        tools:text="P8gMeBTpEXqqxMFSkcAbb6tDsUWbdshB2C"
+        style="@style/GothamRegular.MG.12"/>
 
     <TextView
         android:id="@+id/address_book_row_message"
@@ -38,7 +39,7 @@
         android:text="@string/address_book_row_message_compromised_key"
         android:textColor="@color/fg_error"
         android:textSize="@dimen/font_size_small"
-        style="@style/MontserratMedium"
+        style="@style/GothamMedium"
         android:visibility="gone" />
 
 </LinearLayout>

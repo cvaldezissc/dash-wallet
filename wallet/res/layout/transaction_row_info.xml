@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/transaction_row_info_message"
     style="@android:style/Widget.Holo.Button.Borderless"
     android:layout_width="match_parent"
@@ -11,4 +12,5 @@
     android:paddingRight="@dimen/list_entry_padding"
     android:paddingTop="@dimen/list_entry_padding"
     android:textColor="@color/fg_less_significant"
-    android:textSize="@dimen/font_size_small" />
+    android:textSize="@dimen/font_size_small"
+    />
