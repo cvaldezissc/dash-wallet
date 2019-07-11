@@ -221,7 +221,7 @@
     <string name="input_parser_io_error">Kan gegevens niet lezen:\n%s</string>
     <string name="input_parser_cannot_classify">Invoer niet herkend:\n%s</string>
     <string name="input_parser_invalid_bitcoin_uri">Ongeldige $PAC URI:\n%s</string>
-    <string name="input_parser_invalid_address">Ongeldig Dashadres ontvangen!\n(Haal je mainnet/testnet door elkaar?)</string>
+    <string name="input_parser_invalid_address">Ongeldig $PACadres ontvangen!\n(Haal je mainnet/testnet door elkaar?)</string>
     <string name="input_parser_unverifyable_paymentrequest">Uw betalingsverzoek:\n%s kan niet geverifieerd worden</string>
     <string name="input_parser_invalid_paymentrequest">Ongeldig betalingsverzoek:\n%s</string>
     <string name="input_parser_invalid_transaction">Ongeldige transactie:\n%s</string>
@@ -233,8 +233,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 cijfers achter de komma</string>
     <string name="preferences_precision_labels_6">$PAC, 6 cijfers achter de komma</string>
     <string name="preferences_precision_labels_4">$PAC, 4 cijfers achter de komma</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 cijfers achter de komma</string>
-    <string name="preferences_precision_labels_0_6">µDASH, geen cijfers achter de komma</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 cijfers achter de komma</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, geen cijfers achter de komma</string>
     <string name="preferences_own_name_title">Eigen naam</string>
     <string name="preferences_own_name_summary">Uw eigen naam; deze zal worden toegevoegd aan betaalverzoeken. Probeer uw naam zo kort mogelijk te houden.</string>
     <string name="preferences_send_coins_autoclose_title">Sluit automatisch het dialoogvenster voor verzenden</string>

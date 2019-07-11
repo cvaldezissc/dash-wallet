@@ -1,36 +1,36 @@
 自己責任でご利用下さい！（Android 4.0以上の端末が必要）
 
-<b>Dashをいつもポケットに！</b> QRコードを読み取ってすぐに支払いができます。事業者の方は確実かつ瞬時に支払いを受け取ることができます。Dashウォレットは最初のモバイルDashアプ​​リであり、間違いなく最も安全です！
+<b>$PACをいつもポケットに！</b> QRコードを読み取ってすぐに支払いができます。事業者の方は確実かつ瞬時に支払いを受け取ることができます。$PACウォレットは最初のモバイル$PACアプ​​リであり、間違いなく最も安全です！
 
 <b>特長</b>
 
 ・ウェブサービスやクラウドは不要で登録なしでご利用いただけます！このウォレットは分散型でP2Pです。
-・Dashの額はDASH、mDASH、μDASHの各単位で表示できます。
-・各国通貨とDash間で価格の変換ができます。
-・NFC、QRコード、またはDashアドレス経由でDashの送金と受取ができます。
-・定期的に使用するDashアドレスはアドレス帳に登録できます。
+・$PACの額は$PAC、m$PAC、μ$PACの各単位で表示できます。
+・各国通貨と$PAC間で価格の変換ができます。
+・NFC、QRコード、または$PACアドレス経由で$PACの送金と受取ができます。
+・定期的に使用する$PACアドレスはアドレス帳に登録できます。
 ・オフラインでもBluetooth経由で支払いができます。
 ・コインの受取時は通知があります。
 ・ペーパーウォレット（コールドストレージとして使われるもの）からの取り出しができます。
-・Dash残高が表示されるウィジェット機能があります。
+・$PAC残高が表示されるウィジェット機能があります。
 
 
 <b>貢献</b>
 
-Dashウォレットは <b>オープンソース</b> で <b>フリーソフトウェア</b>です。 ライセンス：GPLv3
+$PACウォレットは <b>オープンソース</b> で <b>フリーソフトウェア</b>です。 ライセンス：GPLv3
 https://www.gnu.org/licenses/gpl-3.0.ja.html
 
 ソースコードはGitHubで入手できます：
-https://github.com/HashEngineering/dash-wallet
+https://github.com/PacCommunity/pac-wallet-android-v2/
 
 すべての翻訳はTransifexで管理されています。
-https://www.transifex.com/dash/dash-wallet/
+https://www.transifex.com/PacCommunity/pac-wallet-android-v2/
 
-Dashについて詳しくはこちら
-https://www.dash.org/
+$PAC
+https://www.paccoin.net
 
 <b>推薦</b>
 
-• https://www.dash.org で推奨されているモバイルウォレットです
+• https://www.paccoin.net で推奨されているモバイルウォレットです
 
 <i>自己責任でご利用下さい！</i>

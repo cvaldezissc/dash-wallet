@@ -268,7 +268,7 @@
     <string name="report_issue_dialog_title_issue">报告问题</string>
     <string name="report_issue_dialog_title_crash">检测到了之前的一次奔溃</string>
     <string name="report_issue_dialog_title_transaction">对选定的支付提交问题报告</string>
-    <string name="report_issue_dialog_message_issue">请您尽量详细完整地描述您所遇到的问题. 如果可以请使用英语. 预计24小时内Dash Support会针对您的问题给予回复.</string>
+    <string name="report_issue_dialog_message_issue">请您尽量详细完整地描述您所遇到的问题. 如果可以请使用英语. 预计24小时内$PAC Support会针对您的问题给予回复.</string>
     <string name="report_issue_dialog_message_crash">您想发送崩溃报告，帮助在未来解决这个问题？</string>
     <string name="report_issue_dialog_description">问题描述</string>
     <string name="report_issue_dialog_report">报告</string>

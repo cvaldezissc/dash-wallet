@@ -102,7 +102,7 @@
     <string name="raise_fee_dialog_button_raise">Arttır</string>
     <string name="sweep_wallet_activity_title">Kağıt cüzdanı tara</string>
     <string name="sweep_wallet_fragment_intro">Bir kupon veya kağıt cüzdan taramak üzeresiniz. Tarama yaptığınız takdirde, buradaki tüm $PAC\'ler cihazınızdaki cüzdana taşıyanacaktır. İşlem onaylandığında, kağıt cüzdanın veya kuponun hiçbir değeri kalmayacaktır ve güvenlik nedenlerinden dolayı tekrar kullanılmamalıdır.</string>
-    <string name="sweep_wallet_fragment_hint">Kağıt cüzdanlar genelde soğuk depolama için kullanılır. Bazı ATMler Dashleri doğrudan mobil cihazınıza yollamak yerine kağıt çıktısına yazar. Bazı kişiler önceden doldurulmuş kağıt cüzdanları para aktarmak için kullanırlar (bu tavsiye edilmez).</string>
+    <string name="sweep_wallet_fragment_hint">Kağıt cüzdanlar genelde soğuk depolama için kullanılır. Bazı ATMler $PACleri doğrudan mobil cihazınıza yollamak yerine kağıt çıktısına yazar. Bazı kişiler önceden doldurulmuş kağıt cüzdanları para aktarmak için kullanırlar (bu tavsiye edilmez).</string>
     <string name="sweep_wallet_fragment_wallet_unknown">Kağıt cüzdanın özel anahtarını tarayarak başlayın. Kamera butonunu kullanın.</string>
     <string name="sweep_wallet_fragment_encrypted">Bu özel anahtar bir şifre ile korunmaktadır.</string>
     <string name="sweep_wallet_fragment_password">şifre</string>
@@ -117,7 +117,7 @@
     <string name="sweep_wallet_fragment_insufficient_money_msg">Cüzdandaki $PAC miktarı tarama işlemi için yetersiz.</string>
     <string name="sweep_wallet_options_reload">Bakiyeyi tekrar yükle</string>
     <string name="maintenance_dialog_title">Bakım önerilir</string>
-    <string name="maintenance_dialog_message">Güvenli olmayan adreslere %1$s alındı. Bu Dashleri güvenli adreslere aktarmak ister misiniz? %2$s tutarında düşük bir ağ ücreti ödenecektir.</string>
+    <string name="maintenance_dialog_message">Güvenli olmayan adreslere %1$s alındı. Bu $PACleri güvenli adreslere aktarmak ister misiniz? %2$s tutarında düşük bir ağ ücreti ödenecektir.</string>
     <string name="maintenance_dialog_state_decrypting">Şifre Çözülüyor…</string>
     <string name="maintenance_dialog_state_done">Tamamlandı.</string>
     <string name="maintenance_dialog_button_move">Aktar</string>
@@ -240,8 +240,8 @@
     <string name="preferences_precision_labels_8">$PAC, ondalık basamak sayısı 8</string>
     <string name="preferences_precision_labels_6">$PAC, ondalık basamak sayısı 6</string>
     <string name="preferences_precision_labels_4">$PAC, ondalık basamak sayısı 4</string>
-    <string name="preferences_precision_labels_2_3">mDASH, ondalık basamak sayısı 2</string>
-    <string name="preferences_precision_labels_0_6">µDASH, ondalık basamak sayısı yoktur</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, ondalık basamak sayısı 2</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, ondalık basamak sayısı yoktur</string>
     <string name="preferences_own_name_title">Kendi isminiz</string>
     <string name="preferences_own_name_summary">Ödeme taleplerine eklenecek isminiz. Kısa tutmaya çalışın.</string>
     <string name="preferences_send_coins_autoclose_title">$PAC gönderme diyaloğunu otomatik-kapa</string>

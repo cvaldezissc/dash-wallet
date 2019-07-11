@@ -5,7 +5,7 @@
 المميزات 
 
 • لا تسجيل، خدمة ويب أو سحابة المطلوبة! هذه المحفظة غير مركزية والنظير إلى الأقران.
-• Display of Dash amount in DASH, m DASH and µDASH.
+• Display of $PAC amount in $PAC, m$PAC and µ$PAC.
 • التحويل من وإلى العملات الوطنية.
 • تحويل من وإلى سو الوطنية • إرسال واستقبال داش عبر نفك، رموز ريال قطري أو داش عناوين المواقع.
 • دفتر العناوين لعناوين داش المستخدمة بانتظام.
@@ -21,16 +21,16 @@
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 لدينا شفرة المصدر هو متاح في جيثب:
-https://github.com/HashEngineering/dash-wallet
+https://github.com/PACCommunity/pac-wallet-android-v2
 
 تتم إدارة جميع الترجمات عبر ترانسيفيكس:
-https://www.transifex.com/dash/dash-wallet/
+https://www.transifex.com/PACCommunity/pac-wallet-android-v2/
 
 يمكنك العثور على المزيد حول داش في
-https://www.dash.org/
+https://www.paccoin.net/
 
 التوصيات
 
-• أوصى المحفظة النقالة  https://www.dash.org
+• أوصى المحفظة النقالة  https://www.paccoin.net
 
 استخدام على مسؤوليتك الخاصة!

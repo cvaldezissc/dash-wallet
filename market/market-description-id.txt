@@ -1,36 +1,36 @@
 Gunakan dengan resiko Anda sendiri! (Membutuhkan Android 4 atau lebih tinggi)
 
-<b>Miliki Dash Anda selalu bersama Anda, di saku Anda! </b>Anda membayar dengan cepat memindai kode QR. Sebagai pedagang, Anda menerima pembayaran dengan andal dan instan. Dash Wallet adalah aplikasi Dash ponsel pertama, dan bisa dibilang juga yang paling aman!  
+<b>Miliki $PAC Anda selalu bersama Anda, di saku Anda! </b>Anda membayar dengan cepat memindai kode QR. Sebagai pedagang, Anda menerima pembayaran dengan andal dan instan. $PAC Wallet adalah aplikasi $PAC ponsel pertama, dan bisa dibilang juga yang paling aman!  
 
 <b>FITUR</b> 
 
 • Tidak perlu registrasi, layanan web atau cloud! Dompet ini tidak terpusat dan peer to peer.
-• Tampilan jumlah Dash dalam DASH, mDASH, dan µDASH.
+• Tampilan jumlah $PAC dalam $PAC, m$PAC, dan µ$PAC.
 • Konversi ke dan dari mata uang nasional.
-• Mengirim dan menerima Dash melalui NFC, kode QR atau Dash URL.
-• Buku alamat untuk alamat-alamat Dash yang sering digunakan.
+• Mengirim dan menerima $PAC melalui NFC, kode QR atau $PAC URL.
+• Buku alamat untuk alamat-alamat $PAC yang sering digunakan.
 • Saat Anda offline, Anda tetap dapat membayar melalui Bluetooth.
 • Pemberitahuan sistem untuk koin yang diterima.
 • Menyapu dompet kertas (misalnya yang digunakan untuk cold storage).
-• Widget aplikasi untuk saldo Dash.
+• Widget aplikasi untuk saldo $PAC.
 
 
 <b>BERKONTRIBUSI</b>
 
-Dash Wallet adalah <b>sumber terbuka</b> dan <b>perangkat lunak bebas</b>. Lisensi: GPLv3
+$PAC Wallet adalah <b>sumber terbuka</b> dan <b>perangkat lunak bebas</b>. Lisensi: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Kode sumber kami tersedia di GitHub:
-https://github.com/HashEngineering/dash-wallet
+https://github.com/PacCommunity/pac-wallet-android-v2/
 
 Semua terjemahan dikelola melalui Transifex:
-https://www.transifex.com/dash/dash-wallet/
+https://www.transifex.com/PacCommunity/pac-wallet-android-v2/
 
-Anda dapat menemukan lebih banyak tentang Dash di
-https://www.dash.org/
+Anda dapat menemukan lebih banyak tentang $PAC di
+https://www.paccoin.net/
 
 <b>TANDA PENGHARGAAN</b>
 
-• Dompet ponsel yang direkomendasikan oleh https://www.dash.org
+• Dompet ponsel yang direkomendasikan oleh https://www.paccoin.net
 
 <i>Gunakan dengan resiko Anda sendiri!</i>

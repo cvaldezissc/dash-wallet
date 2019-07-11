@@ -118,7 +118,7 @@
 	<string name="request_coins_fragment_initiate_request_nfc">Eller berør en NFC-aktivert enhet.</string>
 	<string name="request_coins_clipboard_msg">$PAC-forespørsel kopieret til utklippstavlen</string>
 	<string name="request_coins_share_dialog_title">Del forespørsel etter $PAC…</string>
-	<string name="request_coins_no_local_app_msg">Ingen andre Dashapper funnet</string>
+	<string name="request_coins_no_local_app_msg">Ingen andre $PACapper funnet</string>
 	<string name="request_coins_options_local_app_title">Forespørsel fra lokal app</string>
 	<string name="address_book_activity_title">Adressebok</string>
 	<string name="address_book_list_receiving_title">Dine adresser</string>
@@ -218,8 +218,8 @@
 	<string name="preferences_precision_labels_8">$PAC, 8 desimaler</string>
 	<string name="preferences_precision_labels_6">$PAC, 6 desimaler</string>
 	<string name="preferences_precision_labels_4">$PAC, 4 desimaler</string>
-	<string name="preferences_precision_labels_2_3">mDASH, 2 desimaler</string>
-	<string name="preferences_precision_labels_0_6">µDASH, ingen desimaler</string>
+	<string name="preferences_precision_labels_2_3">m$PAC, 2 desimaler</string>
+	<string name="preferences_precision_labels_0_6">µ$PAC, ingen desimaler</string>
 	<string name="preferences_own_name_title">Ditt navn</string>
 	<string name="preferences_own_name_summary">Ditt navn, som skal legges til betalingsforespørsler. Prøv å holde det kort.</string>
 	<string name="preferences_connectivity_notification_title">Tilkoblingsindikator</string>

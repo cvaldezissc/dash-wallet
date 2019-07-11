@@ -239,8 +239,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 decimalnih mesta</string>
     <string name="preferences_precision_labels_6">$PAC, 6 decimalnih mesta</string>
     <string name="preferences_precision_labels_4">$PAC, 4 decimalna mesta</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 decimalna mesta</string>
-    <string name="preferences_precision_labels_0_6">µDASH, bez decimalnih mesta</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 decimalna mesta</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, bez decimalnih mesta</string>
     <string name="preferences_own_name_title">Vlastito ime</string>
     <string name="preferences_own_name_summary">Vaše ime, biće dodato uz zahteve za uplatu. Neka bude kratko.</string>
     <string name="preferences_send_coins_autoclose_title">Automatski zatvori dijalog za slanje novčića</string>

@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Dash Core Group
+ * Copyright 2018 PacCommunity Group
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -67,7 +67,7 @@ public class FingerprintHelper {
     private static final String FINGERPRINT_PREFS_NAME = "FINGERPRINT_HELPER_PREFS";
     private static final String ENCRYPTED_PASS_SHARED_PREF_KEY = "ENCRYPTED_PASS_PREFS_KEY";
     private static final String LAST_USED_IV_SHARED_PREF_KEY = "LAST_USED_IV_PREFS_KEY";
-    private static final String KEYSTORE_ALIAS = "DASH_WALLET_FINGERPRINT_KEYSTORE";
+    private static final String KEYSTORE_ALIAS = "$PAC_WALLET_FINGERPRINT_KEYSTORE";
 
     private FingerprintManagerCompat fingerprintManager;
 

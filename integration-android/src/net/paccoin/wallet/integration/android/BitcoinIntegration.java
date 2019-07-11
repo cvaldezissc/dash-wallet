@@ -258,13 +258,13 @@ public final class BitcoinIntegration {
     }
 
     private static void redirectToDownload(final Context context) {
-        Toast.makeText(context, "No Dash application found.\nPlease install Dash Wallet.", Toast.LENGTH_LONG)
+        Toast.makeText(context, "No $PAC application found.\nPlease install $PAC Wallet.", Toast.LENGTH_LONG)
                 .show();
 
         final Intent marketIntent = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("market://details?id=hashengineering.pac.wallet"));
+                Uri.parse("market://details?id=net.paccoin.pacofficialwallet"));
         final Intent binaryIntent = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://github.com/HashEngineering/dash-wallet/releases"));
+                Uri.parse("https://github.com/PACCommunity/pac-wallet-android-v2/releases"));
 
         final PackageManager pm = context.getPackageManager();
         if (pm.resolveActivity(marketIntent, 0) != null)

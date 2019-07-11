@@ -30,7 +30,7 @@
 	<string name="send_coins_options_fee_category_zero">Ücret Yok</string>
 	<string name="send_coins_fragment_hint_fee_zero">Ücret ödenmeyecek. Sadece onay süresi sizin için önemli değilse \'ücret yok\' seçeneğini kullanın.</string>
 
-	<string name="wallet_uri_handler_public_key_request_dialog_msg">%s uygulaması size ait Ana Herkese Açık Anahtarı istiyor. Bunun sayesinde cüzdanınız takip edilebilir ama Dashlerinizi başka bir yere aktarmakta kullanılamaz.</string>
+	<string name="wallet_uri_handler_public_key_request_dialog_msg">%s uygulaması size ait Ana Herkese Açık Anahtarı istiyor. Bunun sayesinde cüzdanınız takip edilebilir ama $PAClerinizi başka bir yere aktarmakta kullanılamaz.</string>
 	<string name="wallet_uri_handler_address_request_dialog_msg">%s uygulaması size ödeme yapabilmek için bir adres talep ediyor. Onay veriyor musunuz?</string>
 
 	<string name="wallet_lock_unlock">Kilidi Aç</string>

@@ -18,7 +18,7 @@ import net.paccoin.wallet_test.R;
  */
 public class ExtAppBarLayout extends AppBarLayout {
 
-    private static final String DASH_WEBPAGE_URL = "https://paccoin.net/";
+    private static final String $PAC_WEBPAGE_URL = "https://paccoin.net/";
 
     private View toolbarLogoView;
 
@@ -46,7 +46,7 @@ public class ExtAppBarLayout extends AppBarLayout {
             @Override
             public void onClick(View v) {
                 blinkViews(toolbarLogoView);
-                openUrl(DASH_WEBPAGE_URL);
+                openUrl($PAC_WEBPAGE_URL);
             }
         });
     }

@@ -1508,7 +1508,7 @@ public final class SendCoinsFragment extends Fragment {
                                 + (hintLocalFee != null ? (" (" + exchangeRate.coinToFiat(regularPaymentFee).currencyCode + " " + hintLocalFee + ")") : "")));
                     } catch (NullPointerException x)
                     {
-                        //only show the fee in DASH
+                        //only show the fee in $PAC
                         hintView.setText(getString(hintResId, btcFormat.format(regularPaymentFee)));
                     }
                 } else if (paymentIntent.mayEditAddress() && validatedAddress != null
@@ -1604,7 +1604,7 @@ public final class SendCoinsFragment extends Fragment {
                     final String currencySymbol = GenericUtils.currencySymbol(fiatValueOfInstantSendFee.currencyCode);
                     instantSendInfo.setText(getString(instantSendInfoResId, currencySymbol, hintLocalFee));
                 } catch (NullPointerException x) {
-                    //only show the fee in DASH
+                    //only show the fee in $PAC
                     instantSendInfo.setText(getString(instantSendInfoResId, btcFormat.format(instantSendFee), ""));
                 }
                 instantSendInfo.setVisibility(View.VISIBLE);

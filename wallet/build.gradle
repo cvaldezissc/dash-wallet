@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 ext {
-    archivesBaseName = 'dash-wallet'
+    archivesBaseName = 'pac-wallet'
     androidSupportVersion = '28.0.0'
 }
 repositories {
@@ -80,7 +80,7 @@ dependencies {
 
 
 ext {
-    archivesBaseName = 'dash-wallet'
+    archivesBaseName = 'pac-wallet'
 }
 
 android {

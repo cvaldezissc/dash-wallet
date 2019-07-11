@@ -233,8 +233,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8  décimas</string>
     <string name="preferences_precision_labels_6">$PAC. 6 décimas</string>
     <string name="preferences_precision_labels_4">$PAC, 4 décimas</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 décimas</string>
-    <string name="preferences_precision_labels_0_6">µDASH, sin décimas</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 décimas</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, sin décimas</string>
     <string name="preferences_own_name_title">Tu nombre</string>
     <string name="preferences_own_name_summary">Tu nombre, para añadirlo a las peticiones de pago. Intenta que sea corto.</string>
     <string name="preferences_send_coins_autoclose_title">Diálogo de envio de monedas auto-cerrado</string>

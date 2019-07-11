@@ -234,7 +234,7 @@
     <string name="preferences_precision_labels_6">$PAC, 6 số sau dấu phẩy thập phân</string>
     <string name="preferences_precision_labels_4">$PAC, 4 số sau dấu phẩy thập phân</string>
     <string name="preferences_precision_labels_2_3">$PAC, 2 số sau dấu phẩy thập phân</string>
-    <string name="preferences_precision_labels_0_6">µDASH, không có số sau dấu thập phân</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, không có số sau dấu thập phân</string>
     <string name="preferences_own_name_title">Tên bạn</string>
     <string name="preferences_own_name_summary">Tên của bạn, để đưa vào thông tin yêu cầu thanh toán. Hãy giữ tên ngắn gọn.</string>
     <string name="preferences_send_coins_autoclose_title">Tự động đóng hộp hội thoại gửi tiền</string>

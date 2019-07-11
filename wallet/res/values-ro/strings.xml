@@ -233,8 +233,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 zecimale</string>
     <string name="preferences_precision_labels_6">$PAC, 6 zecimale</string>
     <string name="preferences_precision_labels_4">$PAC, 4 zecimale</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 zecimale</string>
-    <string name="preferences_precision_labels_0_6">µDASH, fara zecimale</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 zecimale</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, fara zecimale</string>
     <string name="preferences_own_name_title">Nume propriu</string>
     <string name="preferences_own_name_summary">Numele tau, care va fi adăugat cererii de plată. Incearcă sa păstrezi numele scurt</string>
     <string name="preferences_send_coins_autoclose_title">Auto-închide dialogul pentru cererea monedelor</string>

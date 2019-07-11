@@ -40,7 +40,7 @@
 	<string name="wallet_lock_unlock_dialog_title">Odblokuj swój portfel</string>
 	<string name="wallet_lock_unlock_dialog_message">Twój portfel jest chroniony za pomocą PIN. Wpisz swój PIN i wciśnij Odblokuj aby kontynuować. </string>
 	<string name="wallet_lock_reset_wallet_title">Resetuj portfel</string>
-	<string name="wallet_lock_reset_wallet_message">Jesteś pewien? Twój portfel zostanie usunięty wszystkie twoje Dashe przepadną. \n\nJedynym sposobem na odzyskanie twoich Dashy będzie kopia zapasowa portfelu lub fraza odzysku.</string>
+	<string name="wallet_lock_reset_wallet_message">Jesteś pewien? Twój portfel zostanie usunięty wszystkie twoje $PACe przepadną. \n\nJedynym sposobem na odzyskanie twoich $PACy będzie kopia zapasowa portfelu lub fraza odzysku.</string>
 
 	<string name="wallet_lock_wallet_disabled">Portfel zdezaktywowany</string>
 	<string name="wallet_lock_try_again">Spróbuj raz jeszcze w %1$d%2$s</string>

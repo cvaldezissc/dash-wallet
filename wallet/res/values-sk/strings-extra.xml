@@ -40,7 +40,7 @@
 	<string name="wallet_lock_unlock_dialog_title">Odomknúť Vašu peňaženku</string>
 	<string name="wallet_lock_unlock_dialog_message">Vaša peňaženka je chránená PIN-om pre míňanie. Pre pokračovanie zadajte Váš PIN a stlačte Odomknúť.</string>
 	<string name="wallet_lock_reset_wallet_title">Resetovať peňaženku</string>
-	<string name="wallet_lock_reset_wallet_message">Ste si istý? Vaša peňaženka bude zmazaná a všetky Vaše Dashe budú stratené.\n\nJediná možnosť ako obnoviť Vaše Dashe je pomocou záložného súboru, alebo frázou pre obnovenie.</string>
+	<string name="wallet_lock_reset_wallet_message">Ste si istý? Vaša peňaženka bude zmazaná a všetky Vaše $PACe budú stratené.\n\nJediná možnosť ako obnoviť Vaše $PACe je pomocou záložného súboru, alebo frázou pre obnovenie.</string>
 
 	<string name="wallet_lock_wallet_disabled">Peňaženka neaktívna</string>
 	<string name="wallet_lock_try_again">Skúste znova za %1$d %2$s</string>

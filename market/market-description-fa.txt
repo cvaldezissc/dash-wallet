@@ -21,16 +21,16 @@
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 کدهای ما در گیت‌هاب موجود است:
-https://github.com/HashEngineering/dash-wallet
+https://github.com/PacCommunity/pac-wallet-android-v2
 
 ترجمه‌ها از طریق سامانه ترنسیفکس صورت می‌گیرد:
-https://www.transifex.com/dash/dash-wallet/
+https://www.transifex.com/PacCommunity/pac-wallet-android-v2/
 
 برای کسب اطلاعات بیشتر می‌توانید به این نشانی مراجعه کنید
-https://www.dash.org/
+https://www.paccoin.net/
 
 <b>توصیه شده</b>
 
-- این کیف پول توصیه شده است توسط https://www.dash.org
+- این کیف پول توصیه شده است توسط https://www.paccoin.net
 
 <i>مخاطرات مربوط به استفاده از این اپلیکیشن بر عهده خودتان است!</i>

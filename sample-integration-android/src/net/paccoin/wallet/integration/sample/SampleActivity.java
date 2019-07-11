@@ -50,15 +50,15 @@ import de.schildbach.wallet.integration.sample.R;
 public class SampleActivity extends Activity {
     private static final long AMOUNT = 500000;
     private static final String[] DONATION_ADDRESSES_MAINNET = {
-            "Xdeh9YTLNtci5zSL4DDayRSVTLf299n9jv",  //Hash Engineering donation DASH address
-            "Xdeh9YTLNtci5zSL4DDayRSVTLf299n9jv"
+            "PVcYnCL983jXM8WNeT7MH9FspGzSG9nUbn",  //PacCommunity donation $PAC address
+            "PVcYnCL983jXM8WNeT7MH9FspGzSG9nUbn"
     };
     private static final String[] DONATION_ADDRESSES_TESTNET = {
             "yd8Q7MwTDe9yJdeMx1YSSYS4wdxQ2HDqTg",   // http://test.faucet.masternode.io/
             "ye5F5rfx44YqvqCpVvi1SfFS4dvqaqyuDr"    // https://test.faucet.dashninja.pl/
     };
     private static final String MEMO = "Sample donation";
-    private static final String WALLET_URI_SCHEME = "dashwallet";
+    private static final String WALLET_URI_SCHEME = "pacwallet";
     private static final int REQUEST_CODE = 0;
     private static final int REQUEST_PAYMENT = 1;
     private static final int REQUEST_PUBLIC_KEY = 2;
@@ -192,7 +192,7 @@ public class SampleActivity extends Activity {
             Intent chooserIntent = Intent.createChooser(walletUriIntent, "Select Wallet");
             startActivityForResult(chooserIntent, requestCode);
         } else {
-            Toast.makeText(this, "Dash Wallet not installed", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "$PAC Wallet not installed", Toast.LENGTH_LONG).show();
         }
     }
 

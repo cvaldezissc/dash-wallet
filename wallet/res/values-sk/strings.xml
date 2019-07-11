@@ -79,9 +79,9 @@
     <string name="send_coins_fragment_direct_payment_failed_msg">Platba bude odoslaná cez P2P sieť.</string>
     <string name="send_coins_fragment_button_send">Odoslať</string>
     <string name="send_coins_fragment_button_back">Späť</string>
-    <string name="send_coins_fragment_insufficient_money_title">Nedostatočné množstvo dostupných Dashov</string>
+    <string name="send_coins_fragment_insufficient_money_title">Nedostatočné množstvo dostupných $PACov</string>
     <string name="send_coins_fragment_insufficient_money_msg1">Chýba %s.</string>
-    <string name="send_coins_fragment_insufficient_money_msg2">Chcete zaplatiť všetkými dostupnými Dashmi?</string>
+    <string name="send_coins_fragment_insufficient_money_msg2">Chcete zaplatiť všetkými dostupnými $PACmi?</string>
     <string name="send_coins_fragment_empty_wallet_failed_title">Vyprázdnenie peňaženky zlyhalo</string>
     <string name="send_coins_fragment_state_decrypting">Dešifrovanie…</string>
     <string name="send_coins_preparation_msg">Podpisujem…</string>
@@ -146,7 +146,7 @@
     <string name="address_book_options_scan_title">Skenovať adresu</string>
     <string name="address_book_options_scan_invalid">Skenované dáta nebolo možné rozpoznať</string>
     <string name="address_book_options_scan_own_address">Naskenovaná adresa je Vaša vlastná.</string>
-    <string name="address_book_row_message_compromised_key">Táto adresa môže byť ohrozená. Nemali by ste ju už používať na prijímanie Dashov.</string>
+    <string name="address_book_row_message_compromised_key">Táto adresa môže byť ohrozená. Nemali by ste ju už používať na prijímanie $PACov.</string>
     <string name="edit_address_book_entry_dialog_title_add">Pridať adresu</string>
     <string name="edit_address_book_entry_dialog_title_edit">Upraviť popis adresy</string>
     <string name="edit_address_book_entry_dialog_title_add_receive">Pridať štítok k Vašej adrese</string>
@@ -240,8 +240,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 desatinných miest</string>
     <string name="preferences_precision_labels_6">$PAC, 6 desatinných miest</string>
     <string name="preferences_precision_labels_4">$PAC, 4 desatinné miesta</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 desatinné miesta</string>
-    <string name="preferences_precision_labels_0_6">µDASH, bez desatinných miest</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 desatinné miesta</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, bez desatinných miest</string>
     <string name="preferences_own_name_title">Vlastné meno</string>
     <string name="preferences_own_name_summary">Vaše meno, ktoré sa pridá ku žiadosti o platbu. Snažte sa byť stručný.</string>
     <string name="preferences_send_coins_autoclose_title">Automaticky zatvoriť dialógové okno odosielania mincí</string>

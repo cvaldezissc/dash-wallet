@@ -16,21 +16,21 @@
 	<string name="export_keys_dialog_title_to_seed">復元フレーズを表示する</string>
 	<string name="import_keys_dialog_title_from_seed">復元フレーズでウォレットを復元する</string>
 	<string name="backup_to_seed_wallet_dialog_message">これはあなたの復元フレーズです。ペンで書き留めてください。</string>
-	<string name="backup_wallet_to_seed_dialog_warning">復元フレーズは絶対に誰にも見せないで下さい！復元フレーズを知られると、あなたのDashは簡単に盗まれます。</string>
+	<string name="backup_wallet_to_seed_dialog_warning">復元フレーズは絶対に誰にも見せないで下さい！復元フレーズを知られると、あなたの$PACは簡単に盗まれます。</string>
 	<string name="backup_to_seed_wallet_dialog_enter_pin_message">あなたのウォレットは送金用PINコードで保護されています。 PINを入力して［表示］を押すと、復元フレーズが表示されます。</string>
     <string name="import_keys_from_seed_dialog_message">あなたの復元フレーズをここに入力して下さい。</string>
 	<string name="import_export_keys_dialog_password_phrase">ここに復元フレーズを入力</string>
 	<string name="preferences_report_issue_summary">問題に関する情報を収集し、開発者へメールで報告する。</string>
 	<string name="navigation_configuration">設定</string>
     <string name="button_copy_address">アドレスをコピーする</string>
-	<string name="request_coins_clipboard_address_msg">Dashアドレスがクリップボードにコピーされました</string>
+	<string name="request_coins_clipboard_address_msg">$PACアドレスがクリップボードにコピーされました</string>
 	<string name="backup_wallet_to_seed_show_recovery_phrase">表示</string>
 	<string name="restore_wallet_from_invalid_seed_warning_message">%sは無効な単語です。</string>
 
 	<string name="send_coins_options_fee_category_zero">手数料無料</string>
 	<string name="send_coins_fragment_hint_fee_zero">手数料は支払われません。承認時間を気にされない場合のみ「手数料無料」をお使いください。</string>
 
-	<string name="wallet_uri_handler_public_key_request_dialog_msg"> %sというアプリがあなたのマスターパブリックキーを要求しています。これはあなたのウォレットの記録を取るために使用されます。あなたのDashが勝手に送金されることはありません。</string>
+	<string name="wallet_uri_handler_public_key_request_dialog_msg"> %sというアプリがあなたのマスターパブリックキーを要求しています。これはあなたのウォレットの記録を取るために使用されます。あなたの$PACが勝手に送金されることはありません。</string>
 	<string name="wallet_uri_handler_address_request_dialog_msg">%sというアプリがあなたに支払いをするためにアドレスを要求していますが、認可しますか？ </string>
 
 	<string name="wallet_lock_unlock">ロック解除する</string>
@@ -40,7 +40,7 @@
 	<string name="wallet_lock_unlock_dialog_title">あなたのウォレットのロックを解除する</string>
 	<string name="wallet_lock_unlock_dialog_message">あなたのウォレットは送金用PINコードで保護されています。 PINを入力してロック解除を押すと次へ進めます。</string>
 	<string name="wallet_lock_reset_wallet_title">ウォレットをリセットする</string>
-	<string name="wallet_lock_reset_wallet_message">本気ですか？ウォレットは削除され全てのDashが失われます。\n\nDashを復元する唯一の方法はバックアップファイル又は復元フレーズの使用です。</string>
+	<string name="wallet_lock_reset_wallet_message">本気ですか？ウォレットは削除され全ての$PACが失われます。\n\n$PACを復元する唯一の方法はバックアップファイル又は復元フレーズの使用です。</string>
 
 	<string name="wallet_lock_wallet_disabled">ウォレットは機能停止しています</string>
 	<string name="wallet_lock_try_again">もう一度 %1$d %2$sにてお試しください。</string>
@@ -79,7 +79,7 @@
 	<string name="notification_synchronization_channel_description">アプリがネットワークと同期している時に通知を表示する。</string>
 
 	<string name="fastest_payment_network_dialog_title">あなたのお金をお好きなように</string>
-	<string name="fastest_payment_network_dialog_message">追加手数料なしで瞬時にDashを送受信</string>
+	<string name="fastest_payment_network_dialog_message">追加手数料なしで瞬時に$PACを送受信</string>
 	<string name="fastest_payment_network_dialog_button">了解</string>
 
 	<string name="unlock_with_fingerprint">ロック解除に指紋認証を使う。</string>

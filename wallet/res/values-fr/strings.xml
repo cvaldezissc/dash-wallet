@@ -233,8 +233,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 décimales</string>
     <string name="preferences_precision_labels_6">$PAC, 6 décimales</string>
     <string name="preferences_precision_labels_4">$PAC, 4 décimales</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 décimales</string>
-    <string name="preferences_precision_labels_0_6">µDASH, sans décimales</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 décimales</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, sans décimales</string>
     <string name="preferences_own_name_title">Votre nom</string>
     <string name="preferences_own_name_summary">Votre nom sera ajouté aux demandes de paiement. Il doit être court.</string>
     <string name="preferences_send_coins_autoclose_title">Fermeture auto. de la notification d\'envoi de fonds</string>

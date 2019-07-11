@@ -1,36 +1,36 @@
 Χρησιμοποιήστε το με δική σας ευθύνη! (Απαιτεί Android 4 ή μεταγενέστερο)
 
-<b>Μεταφέρετε τα Dash πάντα μαζί σας, στην τσέπη σας!</b>Πληρώστε σκανάροντας ένα QR code. Ως έμπορος, μπορείτε να λάβετε γρήγορες και ασφαλείς πληρωμές. Το Dash Wallet είναι η πρώτη mobile Dash app και σίγουρα η πιό ασφαλής!
+<b>Μεταφέρετε τα $PAC πάντα μαζί σας, στην τσέπη σας!</b>Πληρώστε σκανάροντας ένα QR code. Ως έμπορος, μπορείτε να λάβετε γρήγορες και ασφαλείς πληρωμές. Το $PAC Wallet είναι η πρώτη mobile $PAC app και σίγουρα η πιό ασφαλής!
 
 <b>ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ</b>
 
 •Δεν χρειάζεται εγγραφή, web service ή cloud! Το πορτοφόλι αυτό είναι και αποκεντρωμένο και peer to peer.
-• Προβολή του ποσού των Dash σε DASH, mDASH και μDASH.
+• Προβολή του ποσού των $PAC σε $PAC, m$PAC και μ$PAC.
 • Μετατροπή από και σε εθνικά νομίσματα.
-• Στείλτε και παραλάβετε Dash μέσω NFC, QR codes ή Dash URLs.
-• Βιβλίο διευθύνσεων για διευθύνσεις Dash που χρησιμοποιούνται συχνά.
+• Στείλτε και παραλάβετε $PAC μέσω NFC, QR codes ή $PAC URLs.
+• Βιβλίο διευθύνσεων για διευθύνσεις $PAC που χρησιμοποιούνται συχνά.
 • Όταν είστε offline, μπορείτε να πληρώσετε μέσω Bluetooth.
 • System notification για παραληφθέντα νομίσματα.
 • Sweeping για χάρτινα πορτοφόλια (πχ αυτά που χρησιμοποιούνται για cold storage).
-• App widget για το υπόλοιπο σε Dash.
+• App widget για το υπόλοιπο σε $PAC.
 
 
 <b>CONTRIBUTE</b>
 
-Το Dash Wallet είναι <b>open source</b>και <b>δωρεάν εφαρμογή</b>. Άδεια: GPLv3
+Το $PAC Wallet είναι <b>open source</b>και <b>δωρεάν εφαρμογή</b>. Άδεια: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Το source code είναι διαθέσιμο στο GitHub:
-https://github.com/HashEngineering/dash-wallet
+https://github.com/PacCommunity/pac-wallet-android-v2
 
 Όλες οι μεταφράσεις γίνονται μέσω Transifex:
-https://www.transifex.com/dash/dash-wallet/
+https://www.transifex.com/PacCommunity/pac-wallet-android-v2/
 
-Μπορείτε να βρέιτε περισσότερες πληροφορίες για το Dash στο
-https://www.dash.org/
+Μπορείτε να βρέιτε περισσότερες πληροφορίες για το $PAC στο
+https://www.paccoin.net/
 
 <b>TESTIMONIALS</b>
 
-• Προτεινόμενο mobile wallet από το https://www.dash.org
+• Προτεινόμενο mobile wallet από το https://www.paccoin.net
 
 <i>Χρησιμοποιήστε το με δική σας ευθύνη!</i>

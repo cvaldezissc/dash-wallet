@@ -233,8 +233,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 десетични знака</string>
     <string name="preferences_precision_labels_6">$PAC, 6 десетични знака</string>
     <string name="preferences_precision_labels_4">$PAC, 4 десетични знака</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 десетични знака</string>
-    <string name="preferences_precision_labels_0_6">µDASH, без десетични знаци</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 десетични знака</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, без десетични знаци</string>
     <string name="preferences_own_name_title">Собствено име</string>
     <string name="preferences_own_name_summary">Вашето име , ще бъде добавено към заявката за плащане. Опитайте се да бъде кратко.</string>
     <string name="preferences_send_coins_autoclose_title">Автоматично затваряне на диалоговия прозорец</string>

@@ -7,7 +7,7 @@
 
 ⇥⇥<p>
 
-⇥⇥⇥Na levé horní části displeje se zobrazuje vaše bilance v Dashi a jedna ve zvolené národní měně.
+⇥⇥⇥Na levé horní části displeje se zobrazuje vaše bilance v $PACi a jedna ve zvolené národní měně.
 
 ⇥⇥⇥Klepněte na seznam národních měn a zvolte jednu jako výchozí.
 
@@ -45,10 +45,10 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Pomocí tohoto dialogu můžete vyžádat Dashy od někoho jiného (kdo by měl také mít nainstalovanou aplikaci $PAC Wallet).
+			Pomocí tohoto dialogu můžete vyžádat $PACy od někoho jiného (kdo by měl také mít nainstalovanou aplikaci $PAC Wallet).
 		</p>
 		<p>
-			Nejprve zadejte množství Dashů, které chcete vyžádat.
+			Nejprve zadejte množství $PACů, které chcete vyžádat.
 		</p>
 		<p>
 			Potom můžete protistraně nabídnout vygenerovaný QR kód k oskenování,
@@ -56,7 +56,7 @@
 			Druhá strana potom klikne na $PAC URL.
 		</p>
 		<p>
-			V obou případech odesílatel uvidí dialog na zasílání Dashů s předvyplněnými údaji.
+			V obou případech odesílatel uvidí dialog na zasílání $PACů s předvyplněnými údaji.
 			Pokud souhlasí, potvrdí zadané informace a dojde k transakci.
 		</p>
 	]]>
@@ -64,7 +64,7 @@
 	<string name="help_send_coins">
 <![CDATA[
 		<p>
-			Právě jste zahájil zasílání Dashů.
+			Právě jste zahájil zasílání $PACů.
 			Sem jste se musel dostat buď přes hlavní obrazovku aplikace, nebo pomocí klepnutí na speciální adresu v prohlížeči.
 		</p>
 		<p>
@@ -73,7 +73,7 @@
 			Můžete také naskenovat QR kód s adresou nebo požadavkem na zaplacení, stisknutím tlačítka s ikonou QR kódu.
 		</p>
 		<p>
-			V dalším kroku uvidíte, kolik Dashů můžete momentálně utratit.
+			V dalším kroku uvidíte, kolik $PACů můžete momentálně utratit.
 			Jakýkoliv rozdíl vůči zůstatku zobrazenému na výchozí obrazovce je stále nepotvrzen a tudíž nemůže být utracen.
 		</p>
 		<p>
@@ -94,11 +94,11 @@
 	<string name="help_safety">
 <![CDATA[
 		<p>
-			Několik slov o bezpečnosti vašich Dashů:
+			Několik slov o bezpečnosti vašich $PACů:
 		</p>
 		<p>
-			Dashy v aplikaci $PAC Wallet jsou uloženy ve vašem zařízení.
-			<b>Pokud o zařízení přijdete, přijdete i o Dashy v něm.</b>
+			$PACy v aplikaci $PAC Wallet jsou uloženy ve vašem zařízení.
+			<b>Pokud o zařízení přijdete, přijdete i o $PACy v něm.</b>
 			Stejně jako při ztrátě normální peněženky.
 		</p>
 		<p>
@@ -107,7 +107,7 @@
 		</p>
 		<p>
 			<b>Transakce nemohou být zrušeny</b>.
-			Pokud pošlete Dashy někam neznámo kam, neexistuje možnost, jak je získat zpět, jedině byste znali příjemce a on měl zrovna náladu je poctivě vrátit.
+			Pokud pošlete $PACy někam neznámo kam, neexistuje možnost, jak je získat zpět, jedině byste znali příjemce a on měl zrovna náladu je poctivě vrátit.
 		</p>
 		<p>
 			<b>Provedené platby jsou nezvratné</b>.
@@ -117,7 +117,7 @@
 			<b>Udržujte svůj mobilní přístroj v bezpečí!</b>
 			Nepřivlastňujte si práva root svého přístoje.
 			Instalujte pouze aplikace, kterým plně důvěřujete.
-			Existují škodlivé aplikace, které vás mohou o vaše Dashy připravit.
+			Existují škodlivé aplikace, které vás mohou o vaše $PACy připravit.
 		</p>
 		<p>
 			Neriskujte zbytečně!

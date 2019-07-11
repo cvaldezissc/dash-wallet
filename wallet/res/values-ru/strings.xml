@@ -233,8 +233,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 знаков после запятой</string>
     <string name="preferences_precision_labels_6">$PAC, 6 знаков после запятой</string>
     <string name="preferences_precision_labels_4">$PAC, 4 знаков после запятой</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 знака после запятой</string>
-    <string name="preferences_precision_labels_0_6">µDASH, без знаков после запятой</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 знака после запятой</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, без знаков после запятой</string>
     <string name="preferences_own_name_title">Ваше имя</string>
     <string name="preferences_own_name_summary">Ваше имя, которое добавится в запрос платежа. Старайтесь указывать кратко.</string>
     <string name="preferences_send_coins_autoclose_title">Автоматически закрывать диалог отправки</string>

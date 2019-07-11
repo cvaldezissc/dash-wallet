@@ -58,7 +58,7 @@
 	<string name="send_coins_fragment_payee_verified_by_unknown">okänd</string>
 	<string name="send_coins_fragment_receiving_address_label">Skicka till</string>
 	<string name="send_coins_fragment_receiving_address_hint">skriv adress eller namn</string>
-	<string name="send_coins_fragment_receiving_address_error">Ogiltig Dashadress!</string>
+	<string name="send_coins_fragment_receiving_address_error">Ogiltig $PACadress!</string>
 	<string name="send_coins_fragment_receiving_address_own">Du skickar till dig själv!</string>
 	<string name="send_coins_fragment_receiving_address_complex">Komplex\nadress</string>
 	<string name="send_coins_fragment_pending">(%s väntar på bekräftelse)</string>
@@ -93,7 +93,7 @@
 	<string name="raise_fee_dialog_button_raise">Höj</string>
 	<string name="sweep_wallet_activity_title">Läs av papperswallet</string>
 	<string name="sweep_wallet_fragment_intro">Du är på väg att läsa av en papperswallet eller kupong. Detta kommer att flytta alla tillgångar från papperet till din wallet på den här enheten. När transaktionen är bekräftad, kommer papperet att vara värdelöst och bör inte återanvändas av säkerhetsskäl.</string>
-	<string name="sweep_wallet_fragment_hint">En papperswallet används oftast för säker långtidsförvaring. Vissa Dashbankomater skriver ut en sådan på ett papperskvitto istället för att skicka medel till din mobila enhet direkt. Vissa använder ibland en förladdad papperswallet för att byta och skicka medel med varandra (rekommenderas inte).</string>
+	<string name="sweep_wallet_fragment_hint">En papperswallet används oftast för säker långtidsförvaring. Vissa $PACbankomater skriver ut en sådan på ett papperskvitto istället för att skicka medel till din mobila enhet direkt. Vissa använder ibland en förladdad papperswallet för att byta och skicka medel med varandra (rekommenderas inte).</string>
 	<string name="sweep_wallet_fragment_wallet_unknown">Börja genom att läsa av papperswalletens privata nyckel med din mobilkamera.</string>
 	<string name="sweep_wallet_fragment_encrypted">Denna privata nyckel är skyddad med ett lösenord.</string>
 	<string name="sweep_wallet_fragment_password">lösenord</string>
@@ -181,7 +181,7 @@
 	<string name="export_keys_dialog_failure">Din wallet kunde in säkerhetskopieras:\n%s</string>
 	<string name="export_keys_dialog_button_archive">Arkiv</string>
 	<string name="export_keys_dialog_mail_subject">$PAC Wallet-backup</string>
-	<string name="export_keys_dialog_mail_text">Den bifogade krypterade filen innehåller privata Dashnycklar och bör förvaras säkert i alla lägen. Glöm inte krypteringslösenordet!</string>
+	<string name="export_keys_dialog_mail_text">Den bifogade krypterade filen innehåller privata $PACnycklar och bör förvaras säkert i alla lägen. Glöm inte krypteringslösenordet!</string>
 	<string name="export_keys_dialog_mail_intent_chooser">Arkivering av wallet med…</string>
 	<string name="export_keys_dialog_mail_intent_failed">Arkivering av wallet misslyckades.</string>
 	<string name="import_export_keys_dialog_password">lösenord</string>
@@ -219,8 +219,8 @@
 	<string name="preferences_precision_labels_8">$PAC, 8 decimaler</string>
 	<string name="preferences_precision_labels_6">$PAC, 6 decimaler</string>
 	<string name="preferences_precision_labels_4">$PAC, 4 decimaler</string>
-	<string name="preferences_precision_labels_2_3">mDASH, 2 decimaler</string>
-	<string name="preferences_precision_labels_0_6">µDASH, inga decimaler</string>
+	<string name="preferences_precision_labels_2_3">m$PAC, 2 decimaler</string>
+	<string name="preferences_precision_labels_0_6">µ$PAC, inga decimaler</string>
 	<string name="preferences_own_name_title">Ditt namn</string>
 	<string name="preferences_own_name_summary">Skriv ditt namn för att användas vid betalningsmottagande. Gärna kort.</string>
 	<string name="preferences_connectivity_notification_title">Anslutningsindikator</string>

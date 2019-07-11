@@ -240,8 +240,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 δεκαδικά σημεία</string>
     <string name="preferences_precision_labels_6">$PAC, 6 δεκαδικά σημεία</string>
     <string name="preferences_precision_labels_4">$PAC, 4 δεκαδικά σημεία</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 δεκαδικά σημεία</string>
-    <string name="preferences_precision_labels_0_6">μDASH, χωρίς δεκαδικά σημεία</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 δεκαδικά σημεία</string>
+    <string name="preferences_precision_labels_0_6">μ$PAC, χωρίς δεκαδικά σημεία</string>
     <string name="preferences_own_name_title">Το όνομά σας</string>
     <string name="preferences_own_name_summary">Ονομάστε τον εαυτό σας για να προστεθεί στις εντολές πληρωμής. Προσπαθήστε να είναι μικρό το όνομα.</string>
     <string name="preferences_send_coins_autoclose_title">Αυτόματο-κλείσιμο διαλόγου αποστολής νομισμάτων</string>

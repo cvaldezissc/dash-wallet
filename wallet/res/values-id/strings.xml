@@ -240,8 +240,8 @@
 	<string name="preferences_precision_labels_8">$PAC, 8 tempat desimal</string>
 	<string name="preferences_precision_labels_6">$PAC, 6 tempat desimal</string>
 	<string name="preferences_precision_labels_4">$PAC, 4 tempat desimal</string>
-	<string name="preferences_precision_labels_2_3">mDASH, 2 tempat desimal</string>
-	<string name="preferences_precision_labels_0_6">µDASH, tidak ada tempat desimal</string>
+	<string name="preferences_precision_labels_2_3">m$PAC, 2 tempat desimal</string>
+	<string name="preferences_precision_labels_0_6">µ$PAC, tidak ada tempat desimal</string>
 	<string name="preferences_own_name_title">Nama sendiri</string>
 	<string name="preferences_own_name_summary">Nama diri Anda, yang akan ditambahkan ke permintaan pembayaran. Cobalah untuk tetap pendek.</string>
 	<string name="preferences_send_coins_autoclose_title">Tutup otomatis dialog pengiriman koin</string>

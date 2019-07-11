@@ -23,7 +23,7 @@
   <string name="exchange_rates_options_search">Poišči menjalni tečaj</string>
   <string name="wallet_transactions_fragment_empty_text_received">Prejeli niste še nobenih novcev.</string>
   <string name="wallet_transactions_fragment_empty_text_sent">Poslali niste še nobenih novcev.</string>
-  <string name="wallet_transactions_fragment_empty_text_howto">Kako dobim Dashe?\n\nLahko jih kupite,\nprodate kaj za $PAC\nali pa zaslužite z delom.</string>
+  <string name="wallet_transactions_fragment_empty_text_howto">Kako dobim $PACe?\n\nLahko jih kupite,\nprodate kaj za $PAC\nali pa zaslužite z delom.</string>
   <string name="wallet_transactions_row_warning_backup">Čestitke, prejeli ste prvo plačilo! Ste že napravili &lt;u&gt;rezervno kopijo ključev&lt;/u&gt; za zaščito pred izgubo novcev?</string>
   <string name="wallet_transactions_fragment_coinbase">narudarjeno</string>
   <string name="wallet_transactions_fragment_internal">notranji</string>
@@ -36,7 +36,7 @@
   <string name="wallet_low_storage_dialog_msg">$PAC Wallet uporablja notranji pomnilnik, da si zapomni nakazila in bloke. Če tu zmanjka prostora, bo denarnica prenehala delovati in vaši novci bodo v nevarnosti!\n\nŽelite odpreti Application Manager, da boste lahko odstranili odvečne aplikacije?</string>
   <string name="wallet_low_storage_dialog_button_apps">Upravljanje z aplikacijami</string>
   <string name="wallet_timeskew_dialog_title">Preverite nastavitve časa!</string>
-  <string name="wallet_timeskew_dialog_msg">Čas na vaši napravi prehiteva ali zaostaja za %d minut. Zaradi tega verjetno ne morete prejemati ali pošiljati Dashov.\n\nProsimo, preverite in popravite svoje časovne nastavitve.</string>
+  <string name="wallet_timeskew_dialog_msg">Čas na vaši napravi prehiteva ali zaostaja za %d minut. Zaradi tega verjetno ne morete prejemati ali pošiljati $PACov.\n\nProsimo, preverite in popravite svoje časovne nastavitve.</string>
   <string name="wallet_version_dialog_title">Na voljo je nova verzija!</string>
   <string name="wallet_version_dialog_msg">Ta verzija vsebuje popravke pomembnih hroščev. Podrobnosti si lahko ogledate na Google Play.</string>
   <string name="wallet_version_dialog_msg_deprecated">Če ne vidite nove verzije, vaša verzija Androida najbrž ni več podprta.</string>

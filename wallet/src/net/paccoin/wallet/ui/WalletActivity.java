@@ -1214,7 +1214,7 @@ public final class WalletActivity extends AbstractBindServiceActivity
         startActivity(intent);
     }
 
-    //Dash Specific
+    //$PAC Specific
     private void handleDisconnect() {
         getWalletApplication().stopBlockchainService();
         finish();

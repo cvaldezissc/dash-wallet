@@ -233,8 +233,8 @@
     <string name="preferences_precision_labels_8">$PAC, 8 casas decimais</string>
     <string name="preferences_precision_labels_6">$PAC, 6 casas decimais</string>
     <string name="preferences_precision_labels_4">$PAC, 4 casas decimais</string>
-    <string name="preferences_precision_labels_2_3">mDASH, 2 casas decimais</string>
-    <string name="preferences_precision_labels_0_6">µDASH, sem casas decimais</string>
+    <string name="preferences_precision_labels_2_3">m$PAC, 2 casas decimais</string>
+    <string name="preferences_precision_labels_0_6">µ$PAC, sem casas decimais</string>
     <string name="preferences_own_name_title">Nome proprio</string>
     <string name="preferences_own_name_summary">Seu nome proprio, para ser adicionado nos pedidos de pagamento. Tente mantê-lo curto.</string>
     <string name="preferences_send_coins_autoclose_title">Fechar automaticamente diálogo de enviar moedas</string>
